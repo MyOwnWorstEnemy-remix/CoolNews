@@ -1,0 +1,24 @@
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 50%;
+  }
+  
+  .main-nav__link {
+    font-size: 16px;
+    color: #222222;
+    padding: 10px;
+    text-decoration: none;
+  
+    &:hover {
+      color: #38af79;
+    }
+  }
+  
+  .main-nav__link.active {
+    color: #14684e;
+    border-bottom: 1px solid #38af79;
+    pointer-events: none;
+  }
+  
