@@ -41,7 +41,16 @@ function News() {
   return (
     <>
       <h2>News</h2>
-      <NewsArticle />
+      <ul>
+        {articles.length > 0 ? articles.map((articleList) => 
+          articleList.list.map((article) => 
+            <li key={article.url}>
+               <NewsArticle article={article}/>
+            </li>
+          )
+        ) : null}
+      </ul>
+      
     </>
   );
 }
