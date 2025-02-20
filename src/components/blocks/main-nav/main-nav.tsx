@@ -1,19 +1,15 @@
-import { NavLink } from "react-router-dom";
-import "./styles.css";
-
-const isActive = ({ isActive }: { isActive: boolean }) =>
-  `main-nav__link ${isActive ? "active" : ""}`;
+import { Nav, Link } from "./styles";
 
 function MainNav() {
   return (
-    <nav className="main-nav">
-      <NavLink className={isActive} to="/">
+    <Nav>
+      <Link to="/">
         Главная
-      </NavLink>
-      <NavLink className={isActive} to="/movie">
+      </Link>
+      <Link to="/movie">
         Афиша
-      </NavLink>
-    </nav>
+      </Link>
+    </Nav>
   );
 }
 

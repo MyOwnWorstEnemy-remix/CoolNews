@@ -1,8 +1,9 @@
 import { useState } from "react";
-import MainNav from "../../blocks/main-nav/main-nav";
+import Header from "../../../layout/header/header";
 import News from "../../blocks/news/news";
 import CategorySelect from "../../ui/category-select/category-select";
 import { Category, CategoryList } from "../../../types/types";
+import { HiddenTitle, Main } from "./styles";
 
 const categories = [
   {
@@ -44,16 +45,17 @@ const categories = [
 ] as CategoryList[];
 
 function MainPage() {
-  const [categoryList, setCategoryList] = useState<Category[]>([]);
+  const initArr = categories.map((c) => c.name);
+  const [categoryList, setCategoryList] = useState<Category[]>(initArr);
 
   return (
     <>
-      <MainNav/>
-      <main>
-        <h1>MainPage</h1>
+      <Header/>
+      <Main>
+        <HiddenTitle>MainPage</HiddenTitle>
         <CategorySelect categories={categories} categoryList={categoryList} setCategoryList={setCategoryList}/>
         <News categoryList={categoryList}/>
-      </main>
+      </Main>
       
     </>
   );

@@ -1,9 +1,9 @@
-import MainNav from "../../blocks/main-nav/main-nav";
+import Header from "../../../layout/header/header";
 
 function MoviePage() {
   return (
     <>
-      <MainNav />
+      <Header />
       <h1>MoviePage</h1>
     </>
   );

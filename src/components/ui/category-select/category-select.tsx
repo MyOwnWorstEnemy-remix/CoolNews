@@ -1,5 +1,6 @@
 import { CategoryList } from "../../../types/types";
 import { Category } from "../../../types/types";
+import { Selector, Title, List, Input } from "./styles";
 
 type SetCategory = (category: Category[]) => void;
 
@@ -14,19 +15,19 @@ function CategorySelect ({categories, categoryList, setCategoryList} : {categori
             setCategoryList(newList);
         }
     };
-    return <>
-    <h2>Категории:</h2>
-    <ul>
-        {categories.map((category) => 
-            <li key={category.id}>
-                <label>
-                    <input type="checkbox" id={category.name} name="news-category" value={category.name} onChange={handleCheckboxChange}/>
-                    {category.name}
-                </label>
-            </li>
-        )}
-    </ul>
-    </>
+    return <Selector>
+        <Title>Категории:</Title>
+        <List>
+            {categories.map((category) => 
+                <li key={category.id}>
+                    <label>
+                        <Input type="checkbox" id={category.name} name="news-category" value={category.name} onChange={handleCheckboxChange}/>
+                        {category.name}
+                    </label>
+                </li>
+            )}
+        </List>
+    </Selector>
 }
 
 export default CategorySelect;

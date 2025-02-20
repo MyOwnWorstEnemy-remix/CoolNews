@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import NewsArticle from "../../ui/news-article/news-article";
 import { Article, ArticleList } from "../../../types/types";
 import { Category } from "../../../types/types";
+import { Section, Title, List } from "./styles";
 
 function News({categoryList}: {categoryList: Category[]}) {
   const serverUrl = 'http://localhost:3000/articles';
@@ -37,17 +38,17 @@ function News({categoryList}: {categoryList: Category[]}) {
   }, [categoryList]);
 
   return (
-    <>
-      <h2>Новости</h2>
-      <ul>
+    <Section>
+      <Title>Новости</Title>
+      <List>
         {articles.length > 0 ? articles.map((article) => 
             <li key={article.url}>
                <NewsArticle article={article}/>
             </li>
         ) : null}
-      </ul>
+      </List>
       
-    </>
+    </Section>
   );
 }
 
