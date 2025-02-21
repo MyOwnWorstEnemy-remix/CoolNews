@@ -12,14 +12,14 @@ export const Link = styled(NavLink)`
   font-size: 16px;
   padding: 10px;
   text-decoration: none;
-  color: #222222;
+  color: #282f2c;
 
   &:hover {
-    color: #38af79;
+    color: #104a9d;
   }
 
   &.active {
-    color: #14684e;
-    border-bottom: 1px solid #38af79;
+    color: #10264c;
+    border-bottom: 1px solid #10264c;
   }
 `;

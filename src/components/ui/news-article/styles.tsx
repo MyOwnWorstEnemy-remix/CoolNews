@@ -34,12 +34,12 @@ export const Img = styled.img`
 `
 
 export const Link = styled.a`
-    color: #14684e;
+    color: #10264c;
     text-decoration: none;
     font-style: italic;
 
     &:hover {
-        color: #38af79;
+        color: #104a9d;
     }
 `
 
