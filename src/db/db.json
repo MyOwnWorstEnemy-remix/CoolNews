@@ -1125,5 +1125,620 @@
       ],
       "id": "health"
     }
+  ],
+  "events": [
+    {
+      "id": "msk",
+      "list": [
+        {
+          "id": "food",
+          "list": [
+            {
+              "id": "event",
+              "list": [
+                {
+                  "id": 0,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/1e/c9/1ec912617727a02ed91e438ad32bf0f3.jpg",
+                  "title": "Гастрономический мюзикл «Москва слезам не верит»",
+                  "link": "https://kudago.com/msk/event/teatr-moskva-slezam-ne-verit/",
+                  "age-restriction": "18+",
+                  "description": "Проект нового формата объединил в себе мюзикл, изысканную авторскую кухню и танцевальную вечеринку.",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "3 января 2024 – 31 марта 2025 весь день"
+                    }
+                  ],
+                  "place": "Театральное пространство «Одеон»",
+                  "cost": "от 6000 до 20 000 руб.",
+                  "fav-number": 25,
+                  "views": 36060,
+                  "button": "Купить билет",
+                  "button-link": "https://moscowmusical.ru/?utm_campaign=KudaGo_MSNV&utm_source=Site"
+                },
+                {
+                  "id": 1,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/20/24/20247c4353d07148cbc7b539205577de.jpg",
+                  "title": "Гастротур с чаем из самовара, домашней выпечкой и дегустациями",
+                  "link": "https://kudago.com/msk/event/ekskursiya-gastrotur-s-chaem-iz-samovara-domashnej-vyipechkoj-i-degustatsiyami-syirov-i-vin/",
+                  "age-restriction": "18+",
+                  "description": "Вкусные угощения, живописная природа и уютная атмосфера провинциальных городков — путешественники ближе...",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "8–9 марта весь день"
+                    },
+                    {
+                      "id": 1,
+                      "name": "1–2 мая весь день"
+                    },
+                    {
+                      "id": 2,
+                      "name": "12–13 июня весь день"
+                    }
+                  ],
+                  "cost": "17 900 рублей",
+                  "fav-number": 0,
+                  "views": 2250,
+                  "button": "Записаться на экскурсию",
+                  "button-link": "https://experience.tripster.ru/experience/53723/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=53723&erid=2SDnjdkRkqg"
+                },
+                {
+                  "id": 2,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/01/d9/01d973568f757154d24d11b2d86bd5d0.jpg",
+                  "title": "Гастрономический квест «Мексика в Москве»",
+                  "link": "https://kudago.com/msk/event/ekskursiya-meksika-v-moskve/",
+                  "age-restriction": "18+",
+                  "description": "Проникнуться культурой солнечной Мексики, не покидая границ Москвы, смогут участники увлекательной...",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "1 января – 16 апреля"
+                    }
+                  ],
+                  "cost": "15000 рублей за группу до 3 человек или 5000 рублей за человека, если вас больше",
+                  "fav-number": 1,
+                  "views": 2637,
+                  "button": "Записаться на экскурсию",
+                  "button-link": "https://experience.tripster.ru/experience/51519/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_spb&utm_content=51519&erid=2SDnjdkRkqg"
+                },
+                {
+                  "id": 3,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/33/29/332992c05f724e725b766d61cded0d59.jpg",
+                  "title": "Индивидуальная экскурсия «Москва для кофеманов»",
+                  "link": "https://kudago.com/msk/event/ekskursiya-dlya-kofemanov/",
+                  "age-restriction": "18+",
+                  "description": "Участники необычной экскурсии смогут приобщиться к столичной кофейной культуре и посетить знаковые...",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "1 октября 2024 – 15 июля 2025 10:00–18:30"
+                    }
+                  ],
+                  "cost": "7900 рублей за группу до 4-х человек",
+                  "fav-number": 21,
+                  "views": 5178,
+                  "button": "Записаться на экскурсию",
+                  "button-link": "https://experience.tripster.ru/experience/18890/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=18890&erid=2SDnjdkRkqg"
+                }
+              ]
+            },
+            {
+              "id": "restaurant",
+              "list": [
+                {
+                  "id": 0,
+                  "adress": "ул. Охотный Ряд, д. 2",
+                  "subway": "Охотный Ряд",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/67/ba/67ba9a32b5f1cd87a60a375c603d7beb.jpg",
+                  "title": "Ресторан MANUL",
+                  "link": "https://kudago.com/msk/place/restoran-manul/",
+                  "age-restriction": "0+",
+                  "description": "Ресторан с кухней народов Сибири и русской печью расположился по соседству с Красной площадью. Здесь...",
+                  "cuisine": "Авторская, русская",
+                  "features": [
+                    {
+                      "id": "wi-fi",
+                      "name": "Бесплатный WI-FI",
+                      "text": "WI-FI"
+                    },
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 7 000 руб.",
+                      "text": "7 000"
+                    }
+                  ],
+                  "fav-number": 4,
+                  "views": 843,
+                  "button": "Забронировать столик",
+                  "button-link": "https://manulmoscow.ru/?roistat=kudago_landing&amp;utm_campaign=promo&amp;utm_content=landing&amp;utm_medium=referral&amp;utm_source=kudago&amp;utm_term=klik"
+                },
+                {
+                  "id": 1,
+                  "adress": "ул. Октябрьская, д. 2",
+                  "subway": "Достоевская, Новослободская",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/b8/bb/b8bb2d4e4a10c60449fc4b4d8bf58e08.jpeg",
+                  "title": "Ресторан «В темноте?!»",
+                  "link": "https://kudago.com/msk/place/restoran-v-temnote/",
+                  "age-restriction": "18+",
+                  "description": "Когда-то в такой ресторан можно было сходить только в Париже. А сейчас он есть и в Москве. Здесь работают...",
+                  "cuisine": "Вегетарианская, европейская",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 2 000 руб.",
+                      "text": "2 000"
+                    }
+                  ],
+                  "fav-number": 443,
+                  "views": 106355
+                },
+                {
+                  "id": 2,
+                  "adress": "наб. Краснопресненская, д. 12, лит. А",
+                  "subway": "Выставочная",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/57/7f/577f5c36bce56a1eb6406e14464e8eec.jpg",
+                  "title": "Ресторан-яхта «Чайка»",
+                  "link": "https://kudago.com/msk/place/restoran-chaika/",
+                  "age-restriction": "0+",
+                  "description": "Ресторан «Чайка» расположен на двухпалубной яхте, с которой открывается чудесный вид на Москву-реку.",
+                  "cuisine": "Авторская, европейская, итальянская, паназиатская, японская",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 3 000 руб.",
+                      "text": "3 000"
+                    }
+                  ],
+                  "fav-number": 34,
+                  "views": 34977
+                },
+                {
+                  "id": 3,
+                  "adress": "ул. 1-я Тверская-Ямская, д. 29, стр. 1",
+                  "subway": "Белорусская",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/06/a5/06a5a45a2325c20174edf59d1e06d9e3.webp",
+                  "title": "Тайная чайная «Chainaya. Tea & Cocktails»",
+                  "link": "https://kudago.com/msk/place/tajnaya-chajnaya/",
+                  "age-restriction": "18+",
+                  "description": "Эта чайная работает в закрытом формате — только для своих. На улице даже нет вывески, так как посторонних...",
+                  "cuisine": "Китайская",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 1 500 руб.",
+                      "text": "1 500"
+                    }
+                  ],
+                  "fav-number": 31,
+                  "views": 25652
+                }
+              ]
+            },
+            {
+              "id": "bar",
+              "list": [
+                {
+                  "id": 0,
+                  "adress": "ул. Большая Дмитровка, д. 13",
+                  "subway": "Пушкинская, Тверская, Театральная, Чеховская",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/16/c5/16c562121afa4de96a0ac893245fe5e5.jpeg",
+                  "title": "Бар Coyote Ugly",
+                  "link": "https://kudago.com/msk/place/coyoteugly/",
+                  "age-restriction": "18+",
+                  "description": "Здесь не просто можно, но и нужно танцевать на барной стойке!",
+                  "fav-number": 234,
+                  "views": 161177
+                },
+                {
+                  "id": 1,
+                  "adress": "пр-д Лубянский, д. 15/2",
+                  "subway": "Китай-город",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/08/90/0890e7bfca8a8f9285827d47d705f05f.jpg",
+                  "title": "Караоке-клуб Jimmy Poy",
+                  "link": "https://kudago.com/msk/place/karaoke-klub-jimmypoy/",
+                  "age-restriction": "18+",
+                  "description": "Модный частный клуб для ценителей пения в роскошной обстановке. Кроме того, Jimmy Poy — это ещё и...",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 3 000 руб.",
+                      "text": "3 000"
+                    }
+                  ],
+                  "fav-number": 11,
+                  "views": 34254
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exibit",
+          "list": [
+            {
+              "id": 0,
+              "img": "https://media.kudago.com/thumbs/l/images/event/fe/a5/fea5beb09717b87a0baff5eb26594cff.png",
+              "title": "Выставка «Метафизические зеркала Худякова»",
+              "link": "https://kudago.com/msk/event/vyistavka-metafizicheskie-zerkala-hudyakova/",
+              "age-restriction": "18+",
+              "description": "Выставка проходит в рамках проекта «Рефракция реальности», посвящённого 80-летию Константина Худякова —...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "до 20 марта 12:00–22:00"
+                }
+              ],
+              "place": "Центр современного искусства «М'АРС»",
+              "cost": "от 700 до 900 руб.",
+              "fav-number": 7,
+              "views": 727,
+              "button": "Купить билет",
+              "button-link": "https://centermars.ru/projects/metafizicheskie-zerkala-hudyakova/"
+            },
+            {
+              "id": 1,
+              "img": "https://media.kudago.com/thumbs/l/images/event/9a/7f/9a7fd4ac0e179a4ecf60104f7a0656e8.JPG",
+              "title": "Выставка «SENSE. Геометрия чувств»",
+              "link": "https://kudago.com/msk/event/vyistavka-sense-geometriya-chuvstv/",
+              "age-restriction": "0+",
+              "description": "Масштабная иммерсивная выставка с использованием современных технологий возвращает человека к природе,...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "до 28 февраля 12:00–22:00"
+                }
+              ],
+              "place": "Центр современного искусства «М'АРС»",
+              "cost": "1200 руб. по будням, 1400 руб. по выходным",
+              "fav-number": 37,
+              "views": 37023,
+              "button": "Узнать подробности",
+              "button-link": "https://centermars.ru/projects/sense/"
+            },
+            {
+              "id": 2,
+              "img": "https://media.kudago.com/thumbs/l/images/event/fc/7a/fc7a55e3897601089ddc88bd3f13d2ac.jpg",
+              "title": "Проект VR Gallery",
+              "link": "https://kudago.com/msk/event/vyistavka-vr-gallery/",
+              "age-restriction": "16+",
+              "description": "VR Gallery — уникальный проект, который позволяет виртуально оказаться в совершенно разных пространствах,...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "до 3 апреля 12:00–22:00"
+                }
+              ],
+              "place": "Музей «АртДинамикс»",
+              "cost": "от 950 до 1100 рублей",
+              "fav-number": 1151,
+              "views": 268045,
+              "button": "Узнать подробности",
+              "button-link": "http://artdynamics.ru/vrgallery"
+            },
+            {
+              "id": 3,
+              "img": "https://media.kudago.com/thumbs/l/images/event/2d/b5/2db579d9e75217edef4d673dd5ed14c0.jpg",
+              "title": "Выставка «Сальвадор Дали & Пабло Пикассо»",
+              "link": "https://kudago.com/msk/event/vyistavka-salvador-dali-and-pablo-pikasso/",
+              "age-restriction": "6+",
+              "description": "Добро пожаловать в мир сюрреализма! На выставке в усадьбе Голицыных вы увидите подлинные работы Дали и...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "до 11 мая 12:00–21:00"
+                }
+              ],
+              "place": "Усадьба Голицыных в саду имени Баумана",
+              "cost": "от 400 до 800 рублей",
+              "fav-number": 37,
+              "views": 699470,
+              "button": "Купить билет",
+              "button-link": "https://iskusstvo.org/proekty-fonda-iskusstvo-natsiy/vystavka-dali-i-pikasso/?utm_source=kudago&utm_medium=article&utm_campaign=promo&erid=2SDnjdh4JYb"
+            }
+          ]
+        },
+        {
+          "id": "excursion",
+          "list": [
+            {
+              "id": 0,
+              "img": "https://media.kudago.com/thumbs/l/images/event/1b/7e/1b7ec10d221ac633641575d4bb6aa718.jpg",
+              "title": "Автобусная экскурсия «Легенды и мифы сталинских высоток»",
+              "link": "https://kudago.com/msk/event/ekskursiya-legendyi-i-mifyi-stalinskih-vyisotok/",
+              "age-restriction": "6+",
+              "description": "Когда-то эти гигантские здания должны были на весь мир заявлять о мощи советского государства. Теперь же...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "1 февраля – 27 апреля сб, вс 16:00"
+                }
+              ],
+              "cost": "от 1100 до 1300 рублей",
+              "fav-number": 74,
+              "views": 8802,
+              "button": "Записаться на экскурсию",
+              "button-link": "https://незабываемая.москва/excursions/23-ekskursiya_po_stalinskikh_vysotkam.html?utm_source=kudago&utm_campaign=Legendy-i-mify-stalinskikh-vysotok&erid=Pb3XmBtzt6UoCrvsRVwHjPNJV5QDETuCTZoNMLr"
+            },
+            {
+              "id": 1,
+              "img": "https://media.kudago.com/thumbs/l/images/event/e7/b2/e7b28f98ffd651878e982e4063d48422.png",
+              "title": "Экскурсия «Новодевичье кладбище: некрополь советской элиты»",
+              "link": "https://kudago.com/msk/event/ekskursiya-novodeviche-kladbische-nekropol-sovetskoj-elityi/",
+              "age-restriction": "6+",
+              "description": "На прогулке по тропинкам одного из самых посещаемых кладбищ столицы гид познакомит участников с... ",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "1 января – 19 апреля"
+                }
+              ],
+              "cost": "3990 рублей за группу до 2 человек или 1995 рублей за человека, если вас больше",
+              "fav-number": 6,
+              "views": 1234,
+              "button": "Записаться на экскурсию",
+              "button-link": "https://experience.tripster.ru/experience/25623/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=25623&erid=2SDnjdkRkqg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spb",
+      "list": [
+        {
+          "id": "food",
+          "list": [
+            {
+              "id": "event",
+              "list": [
+                {
+                  "id": 0,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/73/a3/73a377f3aea49030f3cc5a92cdda9c8d.jpg",
+                  "title": "Мастер-класс по бенто-тортам в историческом особняке",
+                  "link": "https://kudago.com/spb/event/obuchenie-master-klass-po-bento-tortam/",
+                  "age-restriction": "12+",
+                  "description": "В творческой атмосфере участники мастер-класса приобщатся к кондитерскому ремеслу и соберут стильный...",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "26 января – 20 апреля"
+                    }
+                  ],
+                  "cost": "4500 рублей",
+                  "fav-number": 1,
+                  "views": 877,
+                  "button": "Записаться на мастер-класс",
+                  "button-link": "https://experience.tripster.ru/experience/60135/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=60135&erid=2SDnjbq7foG"
+                },
+                {
+                  "id": 1,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/25/36/2536d97b21b498af976a2a31ac4e29e1.jpg",
+                  "title": "Экскурсия «Квест по местам петербургского общепита»",
+                  "link": "https://kudago.com/spb/event/ekskursiya-kvest-po-mestam-peterburgskogo-obschepita/",
+                  "age-restriction": "6+",
+                  "description": "В Санкт-Петербурге хватает и культовых кафе и ресторанов, и тайных заведений, открытых только для своих...",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "1 января – 20 июля 13:00–18:00"
+                    }
+                  ],
+                  "cost": "3000 рублей за группу до 7 человек",
+                  "fav-number": 3,
+                  "views": 860,
+                  "button": "Записаться на экскурсию",
+                  "button-link": "https://experience.tripster.ru/experience/55120/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=55120&erid=2SDnjdkRkqg"
+                },
+                {
+                  "id": 2,
+                  "img": "https://media.kudago.com/thumbs/l/images/event/47/49/47497c56266fcd73ed7451cf95dc9f0c.jpg",
+                  "title": "Кофейная экскурсия по Санкт-Петербургу с дегустацией",
+                  "link": "https://kudago.com/spb/event/ekskursiya-kofejnaya-ekskursiya/",
+                  "age-restriction": "18+",
+                  "description": "Участники экскурсии совместят дружеские посиделки в кафе с мастер-классом, на котором узнают много...",
+                  "time": [
+                    {
+                      "id": 0,
+                      "name": "19–26 февраля"
+                    },
+                    {
+                      "id": 1,
+                      "name": "1–26 марта"
+                    },
+                    {
+                      "id": 2,
+                      "name": "29–30 марта"
+                    }
+                  ],
+                  "cost": "1666 рублей",
+                  "fav-number": 1,
+                  "views": 1161,
+                  "button": "Записаться на экскурсию",
+                  "button-link": "https://experience.tripster.ru/experience/34551/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=34551&erid=2SDnjdkRkqg"
+                }
+              ]
+            },
+            {
+              "id": "restaurant",
+              "list": [
+                {
+                  "id": 0,
+                  "adress": "пер. Гривцова, д. 13/11",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/49/c3/49c367c0dd585bad46d08535f75b0ac0.jpg",
+                  "title": "IT-ресторан «Игристые»",
+                  "link": "https://kudago.com/spb/place/restoran-igristyie/",
+                  "age-restriction": "0+",
+                  "description": "В IT-ресторане «Игристые», расположенном у Сенной площади, объединились вкусная кухня и современные...",
+                  "cuisine": "Европейская",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 1 300 руб.",
+                      "text": "1 300"
+                    }
+                  ],
+                  "fav-number": 13,
+                  "views": 5862
+                },
+                {
+                  "id": 1,
+                  "adress": "ул. Малая Конюшенная, д. 7",
+                  "subway": "Невский Проспект",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/23/20/2320cedc83cba9fcb386eb966bfbd026.jpg",
+                  "title": "Креативный ресторан Wine Gogh",
+                  "link": "https://kudago.com/spb/place/restoran-wine-gogh/",
+                  "age-restriction": "0+",
+                  "description": "Благодаря креативному ресторану Wine Gogh теперь можно объединить любовь к искусству, необычным местам,...",
+                  "cuisine": "Европейская",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 2 000 руб.",
+                      "text": "2 000"
+                    }
+                  ],
+                  "fav-number": 3,
+                  "views": 660,
+                  "button": "Забронировать стол",
+                  "button-link": "https://winegoghrest.com/"
+                }
+              ]
+            },
+            {
+              "id": "bar",
+              "list": [
+                {
+                  "id": 0,
+                  "adress": "ул. Жуковского, д. 3",
+                  "subway": "Маяковская",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/e8/13/e813654d69a84c8512477ea53f4ab320.jpg",
+                  "title": "Бар «Синий Пушкин»",
+                  "link": "https://kudago.com/spb/place/bar-sinij-pushkin/",
+                  "age-restriction": "18+",
+                  "description": "Неформальный рестобар, созданный при непосредственном участии Сергея Шнурова. Здесь можно не только вкусно...",
+                  "features": [
+                    {
+                      "id": "bill",
+                      "name": "Средний счёт: 1 500 руб.",
+                      "text": "1 500"
+                    }
+                  ],
+                  "fav-number": 101,
+                  "views": 65550
+                },
+                {
+                  "id": 1,
+                  "adress": "ул. Рубинштейна, д. 9",
+                  "subway": "Владимирская, Достоевская, Маяковская",
+                  "img": "https://media.kudago.com/thumbs/l/images/place/16/9e/169ea7d3fbadc09b01e26fc172799db4.jpg",
+                  "title": "Punk Brew",
+                  "link": "https://kudago.com/spb/place/punk-brew/",
+                  "age-restriction": "18+",
+                  "description": "Это не бар, не кафе и не ресторан. Это — вызов всем традиционным форматам. Воплощённая свобода в...",
+                  "features": [
+                    {
+                      "id": "wi-fi",
+                      "name": "Бесплатный WI-FI",
+                      "text": "WI-FI"
+                    }
+                  ],
+                  "fav-number": 118,
+                  "views": 75775
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exibit",
+          "list": [
+            {
+              "id": 0,
+              "img": "https://media.kudago.com/thumbs/l/images/event/66/19/661976678dda4ee12b0db43730200da0.png",
+              "title": "Психологические выставки в галерее «Путь»",
+              "link": "https://kudago.com/spb/event/psihologicheskie-vyistavki/",
+              "age-restriction": "18+",
+              "description": "Этот уникальный проект создаёт психологические выставки в темноте. Выставки включают в себя аудиоподкасты,...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "до 28 февраля 12:00–21:00"
+                }
+              ],
+              "place": "Галерея «ПУТЬ»",
+              "cost": "от 800 (с понедельника по пятницу) до 1000 рублей (по выходным)",
+              "fav-number": 135,
+              "views": 86760,
+              "button": "Записаться",
+              "button-link": "https://gallery-way.ru/"
+            },
+            {
+              "id": 1,
+              "img": "06/64/06645f607bb2b2a165adde3db8bf8287.jpg",
+              "title": "Выставка-байопик «Виктор Цой. Легенда» в пространстве «Севкабель Порт»",
+              "link": "https://kudago.com/spb/event/vyistavka-viktor-tsoj-legenda/",
+              "age-restriction": "12+",
+              "description": "На масштабной выставке в «Севкабель Порту» оживает мир Виктора Цоя. Здесь представлена уникальная...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "до 10 марта"
+                }
+              ],
+              "place": "общественное пространство «Севкабель Порт»",
+              "cost": "от 700 рублей",
+              "fav-number": 7,
+              "views": 9862,
+              "button": "Купить билет",
+              "button-link": "https://tsoylegend.ru/"
+            }
+          ]
+        },
+        {
+          "id": "excursion",
+          "list": [
+            {
+              "id": 0,
+              "img": "https://media.kudago.com/thumbs/l/images/event/5a/44/5a4403c83c127a2e20b809ae70fc39fd.jpg",
+              "title": "Интерактивная экскурсия «Карты, игры, ловкость рук»",
+              "link": "https://kudago.com/spb/event/ekskursiya-kartyi-igryi-lovkost-ruk/",
+              "age-restriction": "6+",
+              "description": "Кажется, что за карточным столом порой творится настоящая магия. Но не стоит забывать, что основные её...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "1 января – 21 апреля 11:00–22:00"
+                }
+              ],
+              "cost": "650 рублей за человека",
+              "fav-number": 1,
+              "views": 812,
+              "button": "Записаться на экскурсию",
+              "button-link": "https://experience.tripster.ru/experience/38212/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=38212&erid=2SDnjdkRkqg"
+            },
+            {
+              "id": 1,
+              "img": "https://media.kudago.com/thumbs/l/images/event/25/36/2536d97b21b498af976a2a31ac4e29e1.jpg",
+              "title": "Экскурсия «Квест по местам петербургского общепита»",
+              "link": "https://kudago.com/spb/event/ekskursiya-kvest-po-mestam-peterburgskogo-obschepita/",
+              "age-restriction": "6+",
+              "description": "В Санкт-Петербурге хватает и культовых кафе и ресторанов, и тайных заведений, открытых только для своих...",
+              "time": [
+                {
+                  "id": 0,
+                  "name": "1 января – 20 июля 13:00–18:00"
+                }
+              ],
+              "cost": "3000 рублей за группу до 7 человек",
+              "fav-number": 3,
+              "views": 860,
+              "button": "Записаться на экскурсию",
+              "button-link": "https://experience.tripster.ru/experience/55120/?utm_source=kudago&utm_medium=cpc&utm_campaign=offline2024_msk&utm_content=55120&erid=2SDnjdkRkqg"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
