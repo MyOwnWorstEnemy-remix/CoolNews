@@ -7,6 +7,9 @@ function MainNav() {
         Главная
       </Link>
       <Link to="/movie">
+        Фильмы
+      </Link>
+      <Link to="/events">
         Афиша
       </Link>
     </Nav>
