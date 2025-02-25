@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../../../layout/header/header";
 import News from "../../blocks/news/news";
-import CategorySelect from "../../ui/category-select/category-select";
+import NewsCategory from "../../ui/news-category/news-category";
 import Weather from "../../blocks/weather/weather";
 import { Category, CategoryList } from "../../../types/types";
 import { HiddenTitle, Main } from "./styles";
@@ -54,7 +54,7 @@ function MainPage() {
       <Header/>
       <Main>
         <HiddenTitle>MainPage</HiddenTitle>
-        <CategorySelect categories={categories} categoryList={categoryList} setCategoryList={setCategoryList}/>
+        <NewsCategory categories={categories} categoryList={categoryList} setCategoryList={setCategoryList}/>
         <News categoryList={categoryList}/>
         <Weather />
       </Main>

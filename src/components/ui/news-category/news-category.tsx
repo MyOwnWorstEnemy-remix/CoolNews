@@ -4,7 +4,7 @@ import { Selector, Title, List, Input } from "./styles";
 
 type SetCategory = (category: Category[]) => void;
 
-function CategorySelect ({categories, categoryList, setCategoryList} : {categories: CategoryList[], categoryList: Category[], setCategoryList: SetCategory}) {
+function NewsCategory ({categories, categoryList, setCategoryList} : {categories: CategoryList[], categoryList: Category[], setCategoryList: SetCategory}) {
     const handleCheckboxChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
         const checkboxValue = evt.target.value as Category;
         if (categoryList.includes(checkboxValue)) {
@@ -30,4 +30,4 @@ function CategorySelect ({categories, categoryList, setCategoryList} : {categori
     </Selector>
 }
 
-export default CategorySelect;
+export default NewsCategory;
