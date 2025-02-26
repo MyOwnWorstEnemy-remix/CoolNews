@@ -4,8 +4,10 @@ export const Aside = styled.aside`
     position: sticky;
     top: 50px;
     background-color: #dee7ee;
+    box-sizing: border-box;
     padding: 30px 40px;
-    width: 350px;
+    width: 400px;
+    flex-shrink: 0;
     border-radius: 15px;
     box-shadow: 0px 0px 15px -5px #282f2c;
     height: fit-content;

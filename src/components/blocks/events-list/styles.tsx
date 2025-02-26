@@ -17,10 +17,10 @@ export const List = styled.ul`
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 
     li {
-        width: 30%;
+        max-width: 30%;
         min-width: 250px;
     }
 `

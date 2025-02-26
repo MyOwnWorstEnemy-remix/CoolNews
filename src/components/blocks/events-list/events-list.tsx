@@ -16,7 +16,10 @@ function EventsList ({category} : {category: EventCategory}) {
     fetch(`${serverUrl}/${category.city}`)
     .then((resp) => resp.json())
     .then((data) => {
-      const events = data.list.filter((item: Item) => item.id === category.type)[0].list;
+      let events = data.list.filter((item: Item) => item.id === category.type)[0].list;
+      if (category.subtype) {
+        events = events.filter((item: Item) => item.id === category.subtype)[0].list;
+      }
       setEventList(events);
     });
   }, [category])
