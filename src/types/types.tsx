@@ -22,3 +22,39 @@ export type CategoryList = {
     "id" : number,
     "name": Category,
 }
+
+type Time = {
+  "id": number,
+  "name": string
+}
+
+type Feature = {
+  "id": string,
+  "name": string,
+  "text": string
+}
+
+export type Event = {
+  "id": number,
+  "img": string,
+  "title": string,
+  "link": string,
+  "age-restriction": string,
+  "description": string,
+  "fav-number": number,
+  "views": number,
+  "time"?: Time[],
+  "place"?: string,
+  "cost"?: string,
+  "button"?: string,
+  "button-link"?: string,
+  "adress"?: string,
+  "subway"?: string,
+  "cuisine"?: string,
+  "features": Feature[],
+}
+
+export type EventCategory = {
+  "city": string,
+  "type": string,
+}
