@@ -28,9 +28,25 @@ type Time = {
   "name": string
 }
 
-type Feature = {
+export type Feature = {
   "id": string,
   "name": string,
+  "text": string
+}
+
+export type EventDetails = {
+  "time"?: Time[],
+  "place"?: string,
+  "cost"?: string,
+}
+
+export type EventAdress = {
+  "street": string,
+  "subway"?: string,
+}
+
+export type Cuisine = {
+  "type": string,
   "text": string
 }
 
@@ -39,22 +55,20 @@ export type Event = {
   "img": string,
   "title": string,
   "link": string,
-  "age-restriction": string,
+  "ageRestriction": string,
   "description": string,
-  "fav-number": number,
+  "likes": number,
   "views": number,
-  "time"?: Time[],
-  "place"?: string,
-  "cost"?: string,
+  "details"?: EventDetails,
   "button"?: string,
-  "button-link"?: string,
-  "adress"?: string,
-  "subway"?: string,
-  "cuisine"?: string,
-  "features": Feature[],
+  "buttonLink"?: string,
+  "adress"?: EventAdress,
+  "cuisine"?: Cuisine,
+  "features"?: Feature[],
 }
 
 export type EventCategory = {
   "city": string,
   "type": string,
+  "subtype"?: string,
 }
