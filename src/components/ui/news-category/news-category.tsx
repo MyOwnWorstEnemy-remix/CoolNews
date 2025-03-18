@@ -22,7 +22,7 @@ function NewsCategory ({categories, categoryList, setCategoryList} : {categories
                 <li key={category.id}>
                     <label>
                         <Input type="checkbox" id={category.name} name="news-category" value={category.name} onChange={handleCheckboxChange}/>
-                        {category.name}
+                        {category.text}
                     </label>
                 </li>
             )}

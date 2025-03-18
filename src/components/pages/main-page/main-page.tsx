@@ -9,39 +9,48 @@ import { HiddenTitle, Main } from "./styles";
 const categories = [
   {
     "id": 0,
-    "name": 'general'
+    "name": 'general',
+    "text": 'Общее',
   }, 
   {
     "id": 1,
-    "name": 'world'
+    "name": 'world',
+    "text": 'Мировые',
   }, 
   {
     "id": 2,
-    "name": 'nation'
+    "name": 'nation',
+    "text": 'Национальные',
   }, 
   {
     "id": 3,
-    "name": 'business'
+    "name": 'business',
+    "text": 'Бизнес',
   }, 
   {
     "id": 4,
-    "name": 'technology'
+    "name": 'technology',
+    "text": 'Технологии',
   }, 
   {
     "id": 5,
-    "name": 'entertainment'
+    "name": 'entertainment',
+    "text": 'Развлечения',
   }, 
   {
     "id": 6,
-    "name": 'sports'
+    "name": 'sports',
+    "text": 'Спорт',
   }, 
   {
     "id": 7,
-    "name": 'science'
+    "name": 'science',
+    "text": 'Наука',
   }, 
   {
     "id": 8,
-    "name": 'health'
+    "name": 'health',
+    "text": 'Здоровье',
   }
 ] as CategoryList[];
 

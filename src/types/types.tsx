@@ -21,6 +21,7 @@ export type Category = 'general' | 'world' | 'nation' | 'business' | 'technology
 export type CategoryList = {
     "id" : number,
     "name": Category,
+    "text": string,
 }
 
 type Time = {
