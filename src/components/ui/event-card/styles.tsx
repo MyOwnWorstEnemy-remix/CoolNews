@@ -5,6 +5,10 @@ export const Article = styled.article`
     border: 1px solid #c2c2c2;
     width: 100%;
     padding: 0;
+
+    li {
+        width: 100%;
+    }
 `;
 
 export const Preview = styled.div`

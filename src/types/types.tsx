@@ -68,8 +68,30 @@ export type Event = {
   "features"?: Feature[],
 }
 
+export type EventCity = 'msk' | 'spb';
+export type EventType = 'food' | 'exibit' | 'excursion';
+export type EventSubType = 'event' | 'restaurant' | 'bar';
+
 export type EventCategory = {
-  "city": string,
-  "type": string,
-  "subtype"?: string,
+  "city": EventCity,
+  "type": EventType,
+  "subtype"?: EventSubType[],
+}
+
+export type EventDescription = {
+  "city": {
+    "id": number,
+    "value": EventCity,
+    "text": string
+  }[],
+  "type": {
+    "id": number,
+    "value": EventType,
+    "text": string
+  }[],
+  "subtype": {
+    "id": number,
+    "value": EventSubType,
+    "text": string
+  }[],
 }

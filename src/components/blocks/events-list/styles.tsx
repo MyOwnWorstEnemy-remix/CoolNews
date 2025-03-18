@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Section = styled.section`
     width: 100%;
+    padding-bottom: 70px;
 `
 
 export const Title = styled.h1`
@@ -20,7 +21,6 @@ export const List = styled.ul`
     gap: 25px;
 
     li {
-        max-width: 30%;
-        min-width: 250px;
+        width: 350px;
     }
 `

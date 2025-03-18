@@ -21,7 +21,7 @@ function NewsCategory ({categories, categoryList, setCategoryList} : {categories
             {categories.map((category) => 
                 <li key={category.id}>
                     <label>
-                        <Input type="checkbox" id={category.name} name="news-category" value={category.name} onChange={handleCheckboxChange}/>
+                        <Input type="checkbox" id={category.name} name={`news-category-${category.name}`} value={category.name} onChange={handleCheckboxChange}/>
                         {category.text}
                     </label>
                 </li>

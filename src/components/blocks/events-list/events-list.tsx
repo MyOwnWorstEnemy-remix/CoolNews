@@ -8,7 +8,7 @@ type Item = {
   "list": Event[]
 }
 
-function EventsList ({category} : {category: EventCategory}) {
+function EventsList ({category} : {category: EventCategory}) {  
   const [eventList, setEventList] = useState<Event[]>([]);
   const serverUrl = 'http://localhost:3000/events';
 
@@ -17,10 +17,16 @@ function EventsList ({category} : {category: EventCategory}) {
     .then((resp) => resp.json())
     .then((data) => {
       let events = data.list.filter((item: Item) => item.id === category.type)[0].list;
-      if (category.subtype) {
-        events = events.filter((item: Item) => item.id === category.subtype)[0].list;
+      const result = [] as Event[];
+      if (category.subtype && category.type === 'food') {
+        category.subtype?.forEach((subt) => {
+          const currentCategory = events.filter((item: Item) => item.id === subt)[0].list;
+          result.push(...currentCategory);
+        });
+      } else {
+        result.push(...events);
       }
-      setEventList(events);
+      setEventList(result);
     });
   }, [category])
 
