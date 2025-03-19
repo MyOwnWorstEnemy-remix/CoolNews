@@ -5,6 +5,7 @@ import NewsCategory from "../../ui/news-category/news-category";
 import Weather from "../../blocks/weather/weather";
 import { Category, CategoryList } from "../../../types/types";
 import { HiddenTitle, Main } from "./styles";
+import Footer from "../../../layout/footer/footer";
 
 const categories = [
   {
@@ -67,7 +68,7 @@ function MainPage() {
         <News categoryList={categoryList}/>
         <Weather />
       </Main>
-      
+      <Footer />
     </>
   );
 }

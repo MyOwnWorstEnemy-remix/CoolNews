@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-    width: 700px;
+    width: 750px;
     margin-right: auto;
 `
 

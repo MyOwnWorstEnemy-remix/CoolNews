@@ -3,6 +3,7 @@ import Header from "../../../layout/header/header";
 import Weather from "../../blocks/weather/weather";
 import EventsList from "../../blocks/events-list/events-list";
 import EventCategorySelect from "../../ui/event-category-select/event-category-select";
+import Footer from "../../../layout/footer/footer";
 import { Main } from "./styles";
 import { EventCategory, EventDescription } from "../../../types/types";
 
@@ -66,6 +67,7 @@ function EventPage() {
             <EventsList category={category} />
             <Weather />
         </Main>
+        <Footer />
       </>
     );
   }
