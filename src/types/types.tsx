@@ -95,3 +95,31 @@ export type EventDescription = {
     "text": string
   }[],
 }
+
+type FilmType = "animated-series" | "tv-series" | "movie" | "cartoon";
+
+export type Film = {
+  "id": number,
+  "name": string,
+  "type": FilmType,
+  "year": number,
+  "description": string,
+  "rating": {
+    "kp": number,
+    "imdb": number,
+  },
+  "movieLength"?: number,
+  "seriesLength"?: number,
+  "ageRating"?: number,
+  "poster": {
+    "url": string,
+    "previewUrl": string
+  },
+  "genres": {
+    "name": string
+  }[],
+  "countries": {
+    "name": string
+  }[],
+  "isSeries": boolean
+}

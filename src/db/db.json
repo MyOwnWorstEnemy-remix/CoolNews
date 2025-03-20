@@ -1133,17 +1133,11 @@
       "type": "tv-series",
       "year": 2022,
       "description": "Домашние повара делают ставки на ингредиенты на аукционе, чтобы создать блюда, которые произведут впечатление на приглашенных судей-знаменитостей, и выиграть все деньги из копилки.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 6.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.4
       },
-      "movieLength": null,
       "seriesLength": 35,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10768063/2747fd2e-09f1-4231-8a9d-942727705f73/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10768063/2747fd2e-09f1-4231-8a9d-942727705f73/x1000"
@@ -1172,17 +1166,11 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Об убийстве 6-летней Джонбенет Рэмси, которое так и не было раскрыто.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 6.9,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.9
       },
-      "movieLength": null,
       "seriesLength": 60,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10812607/a64042ff-917e-4509-a9f9-59759f3cb222/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10812607/a64042ff-917e-4509-a9f9-59759f3cb222/x1000"
@@ -1208,17 +1196,11 @@
       "type": "cartoon",
       "year": 2024,
       "description": "Появление нового средства для похудения вызывает волнение в Южном парке. Когда Картману отказывают в доступе к нему, дети решают принять меры.",
-      "status": null,
       "rating": {
         "kp": 6.904,
-        "imdb": 7.1,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 7.1
       },
       "movieLength": 50,
-      "seriesLength": null,
-      "ageRating": null,
       "genres": [
         {
           "name": "мультфильм"
@@ -1247,16 +1229,11 @@
       "type": "movie",
       "year": 2016,
       "description": "Только что окончивший колледж Дэвид мечтает стать крупным музыкальным агентом. Он переезжает в Лос-Анджелес и знакомится со своим кумиром — известным агентом рок-звёзд Уильямом Смайтом, который даже предлагает ему работу в своём агентстве. Правда, есть одно условие: Дэвид должен заключить с Уильямом пари, что сможет проявить себя и в течение 4 месяцев подписать контракт с музыкантом. А в случае неудачи Дэвид лишается своей машины Ford T-Bird 1959 года, на которую сразу положил глаз Смайт.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 5.7,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 5.7
       },
       "movieLength": 91,
-      "seriesLength": null,
       "ageRating": 18,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/31a9fd74-1942-4847-abf0-41ded5005113/orig",
@@ -1283,17 +1260,11 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Элитный колледж Вашингтона. Сводные сестра и брат Кэролайн и Люсьен изо всех сил пытаются подняться по социальной лестнице, не гнушаясь самыми грязными методами. После того, как жестокий инцидент с буллингом и издевательствами начинает угрожать их репутации, они решают соблазнить дочь вице-президента США, чтобы сохранить свое влияние в колледже.",
-      "status": "completed",
       "rating": {
         "kp": 5.895,
-        "imdb": 5.5,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 5.5
       },
-      "movieLength": null,
       "seriesLength": 45,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/45116ab7-84c0-462e-af26-608392f4be4c/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/45116ab7-84c0-462e-af26-608392f4be4c/x1000"
@@ -1316,17 +1287,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "История жителей Белфаста с 1970-х по 1990-е годы на фоне конфликта в Северной Ирландии, которая начинается с похищения и убийства матери десяти детей Джин Макконвилл боевиками ИРА из-за подозрения в шпионаже в пользу Британской армии.",
-      "status": "completed",
       "rating": {
         "kp": 7.434,
-        "imdb": 8.2,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 8.2
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/4486362/eca109b6-e257-481f-b3e8-4063856b2a11/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4486362/eca109b6-e257-481f-b3e8-4063856b2a11/x1000"
@@ -1358,17 +1322,10 @@
       "type": "movie",
       "year": 2024,
       "description": "Выжив в той бойне, Зои пытается вернуться к обычной жизни, но ей всюду мерещится летающее горящее полено. Приятель Джейкстер предлагает девушке отправиться в отпуск и расслабиться, но по дороге их машина ломается, и друзья застревают в небольшом городке. Пока Джейкстер занят изучением автомастерской, Зои пытается найти способ покинуть кажущееся ей зловещим место, но внезапно оказывается в рождественском романтическом фильме Hallmark, где шагу нельзя ступить, чтобы не наткнуться на высокого красавца. А кровожадное полено, спалив полицейский участок со всеми уликами, пускается в погоню за Зои.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 6.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.4
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10812607/cb415b93-a60e-462c-8b47-7e185c82389a/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10812607/cb415b93-a60e-462c-8b47-7e185c82389a/x1000"
@@ -1394,16 +1351,11 @@
       "type": "movie",
       "year": 2024,
       "description": "Переживающий первый взрослый жизненный кризис Никита случайно находит временной портал. В альтернативном мире он встречает «параллельных» родных: свою девушку, ушедшую маму и даже самого себя. Но прежде чем дверь между мирами необратимо закроется, в самых страшных и трагических обстоятельствах он должен найти выход и исправить фатальные ошибки, которые совершил по отношению к близким.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 8.5,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 8.5
       },
       "movieLength": 91,
-      "seriesLength": null,
       "ageRating": 16,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/4486362/069a31bc-071a-41c4-a914-fab92e43a995/orig",
@@ -1433,15 +1385,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Президент США Джо Байден хочет сам разобраться, почему его санкции не работают против русских. Под прикрытием он летит в Россию, чтобы понять русскую душу, и в первый же день теряет документы, но зато находит нового друга — настоящего русского патриота. Теперь Байден вынужден жить в обычной хрущевке, работать учителем английского языка, чтобы накопить деньги на новые документы и попытаться вернуться в Америку. А тем временем агенты ЦРУ увозят в США очень похожего на Байдена российского пенсионера Иваныча.",
-      "status": "completed",
       "rating": {
         "kp": 6.544,
-        "imdb": 2.7,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 2.7
       },
-      "movieLength": null,
       "seriesLength": 24,
       "ageRating": 18,
       "genres": [
@@ -1466,15 +1413,10 @@
       "type": "tv-series",
       "year": 2025,
       "description": "Таня днём в одиночку воспитывает двоих детей, а по ночам работает в такси. Всё меняется, когда она узнаёт о серьёзном диагнозе. Теперь её беспокоит только одно: с кем останутся дети, если болезнь окажется сильнее? Таня не готова доверить их ненадёжным родственникам и решает найти достойного мужчину, женить его на себе, чтобы в случае чего он позаботился о детях. Единственный человек, с кем Таня делится своими мыслями, — это её врач. Неожиданно план срабатывает, и в какой-то момент претендентов становится слишком много.",
-      "status": "completed",
       "rating": {
         "kp": 7.04,
-        "imdb": 7.5,
-        "filmCritics": 0,
-        "russianFilmCritics": 100,
-        "await": null
+        "imdb": 7.5
       },
-      "movieLength": null,
       "seriesLength": 30,
       "ageRating": 16,
       "genres": [
@@ -1502,15 +1444,10 @@
       "type": "animated-series",
       "year": 2024,
       "description": "У трех богатырей что ни день, то подвиг по расписанию. То придется расследовать похищение княжеской короны, то спасать друзей из волшебного мира снов, то Конь Юлий с Алешей схлестнутся в эпической битве умов. Не бывает маленьких приключений, да и богатыри наши — немаленькие.",
-      "status": "completed",
       "rating": {
         "kp": 7.463,
-        "imdb": 5.7,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 5.7
       },
-      "movieLength": null,
       "seriesLength": 18,
       "ageRating": 6,
       "genres": [
@@ -1541,15 +1478,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Жаркая Аргентина. Тихий живописный полуостров в стороне от Буэнос-Айреса. Там, в «аргентинской Венеции», живет уже не первое поколение русских староверов, сохраняя свой язык, веру и уклад. Она — староверка, живущая по правилам общины. Он — полицейский, эмигрант из России, не знающий пощады к преступникам. Она живет в деревне, изоляции от внешнего мира. Он — свой в агрессивном мегаполисе. Им не было суждено встретиться, но их пути пересеклись. Их любовь была невозможна, но она случилась. Их жизни угрожает преступная группировка, их любви — самые близкие люди.",
-      "status": "completed",
       "rating": {
         "kp": 6.759,
-        "imdb": 6.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 6.4
       },
-      "movieLength": null,
       "seriesLength": 35,
       "ageRating": 18,
       "genres": [
@@ -1578,28 +1510,30 @@
       }
     },
     {
-      "id": 6168543,
-      "name": "Волшебная кисточка",
+      "id": 785528,
+      "name": "Рыбак и его душа",
       "type": "cartoon",
-      "year": 2000,
-      "description": "Давным-давно, в стране, где правил император, жил мальчик-сирота по имени Малян. Он мечтал стать известным художником. Но у него не было даже кисточки.",
-      "status": null,
+      "year": 2007,
+      "description": "Как молодой рыбак ради любви к морской деве отказался от своей души.",
       "rating": {
         "kp": 0,
-        "imdb": 7.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.2
       },
-      "movieLength": 15,
-      "seriesLength": null,
-      "ageRating": null,
+      "movieLength": 10,
+      "ageRating": 0,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/a6a4e943-db45-48f5-b4dd-fda6eb3b9bd7/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/6201401/a6a4e943-db45-48f5-b4dd-fda6eb3b9bd7/x1000"
+      },
       "genres": [
         {
-          "name": "короткометражка"
+          "name": "мультфильм"
         },
         {
-          "name": "мультфильм"
+          "name": "детский"
+        },
+        {
+          "name": "короткометражка"
         }
       ],
       "countries": [
@@ -1615,16 +1549,11 @@
       "type": "movie",
       "year": 2024,
       "description": "Робкий офисный клерк оказывается похоронен заживо, а единственной ниточкой связывающей его с внешним миром оказывается оставленный в гробу сотовый телефон. Придя в себя, мужчина пытается дозвониться в службу спасения, но диспетчер почему-то не спешит высылать ему спасателей на помощь.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 8.9,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 8.9
       },
       "movieLength": 16,
-      "seriesLength": null,
       "ageRating": 16,
       "genres": [
         {
@@ -1657,17 +1586,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Сотрудница полиции отпускает единственного свидетеля в деле о серийных убийствах. Она объединяется с бывшим профайлером, чтобы исправить свою ошибку и остановить убийцу, пока не стало слишком поздно.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 6.1,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.1
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "genres": [
         {
           "name": "триллер"
@@ -1693,17 +1615,11 @@
       "type": "movie",
       "year": 2025,
       "description": "В правительстве решают устранить Сержа, который хранит государственную тайну. От смерти мужчину спасает его садовник Лео.",
-      "status": null,
       "rating": {
         "kp": 5.112,
-        "imdb": 4.1,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 4.1
       },
       "movieLength": 110,
-      "seriesLength": null,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/aae3d484-b336-40f8-b940-8f10fc2336b3/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/aae3d484-b336-40f8-b940-8f10fc2336b3/x1000"
@@ -1729,17 +1645,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "В 48 лет Том Вильнёв выходит из тюрьмы, отсидев 17 лет за преступление, которого не совершал. Теперь он адвокат, защищающий несправедливо обвинённых.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 6.7,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.7
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "genres": [
         {
           "name": "боевик"
@@ -1762,15 +1671,10 @@
       "type": "tv-series",
       "year": 2023,
       "description": "Франция, 1980-е. Женщины подвергаются нападениям на дороге у реки. Десятилетие спустя молодая судья обнаруживает связь между несколькими делами, указывающую на серийного насильника.",
-      "status": "completed",
       "rating": {
         "kp": 7.304,
-        "imdb": 8,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 8
       },
-      "movieLength": null,
       "seriesLength": 60,
       "ageRating": 18,
       "genres": [
@@ -1798,26 +1702,14 @@
     {
       "id": 1319263,
       "name": "Герой СамСам",
-      "names": [
-        {
-          "name": "Kosmiskais SamSams",
-          "language": "LV",
-          "type": null
-        }
-      ],
       "type": "cartoon",
       "year": 2019,
       "description": "СамПланета в опасности! На родную обитель знаменитого СамСама напали Мрачуны – инопланетные жуки, которые распространяют по всей Вселенной… грусть. Чтобы победить полчища Мрачунов, герою на помощь придет его давняя подруга по переписке с соседней планеты.",
-      "status": null,
       "rating": {
         "kp": 8.168,
-        "imdb": 5,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 5
       },
       "movieLength": 77,
-      "seriesLength": null,
       "ageRating": 6,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/9bbd820c-ba4a-4dcd-9517-82d7de8a7e43/orig",
@@ -1847,19 +1739,13 @@
     {
       "id": 727222,
       "name": "Таинственные золотые города",
-      "names": [],
       "type": "animated-series",
       "year": 2012,
       "description": "Десять тысяч лет назад народ Му населял Землю. Их научные познания были необычайно развиты. Император Му предвидел конец своего мира. Он построил семь городов в четырех углах мира, где скрывал семь величайших секретов цивилизации в надежде, что однажды будущие цивилизации начнутся там, где его народ остановился. Ученые Му решили, что только двое детей, достойных этого наследия, могут иметь к ним доступ.",
-      "status": "completed",
       "rating": {
         "kp": 9,
-        "imdb": 8.1,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 8.1
       },
-      "movieLength": null,
       "seriesLength": 23,
       "ageRating": 6,
       "poster": {
@@ -1899,15 +1785,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Франция, плато Обрак. Жители готовятся увидеть полное солнечное затмение. Во время затмения 18-летний парень Лука случайно стреляет в свою девушку Нур, а когда приводит к месту трагедии помощь, то ее уже не находят. Матери Луки, сотруднице полиции по имени Маню, и ее напарнице Жоанне предстоит разобраться в этом загадочном преступлении, попутно раскрывая мрачные тайны местных жителей и решая болезненные семейные проблемы.",
-      "status": "completed",
       "rating": {
         "kp": 7.163,
-        "imdb": 6,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 6
       },
-      "movieLength": null,
       "seriesLength": 52,
       "ageRating": 18,
       "poster": {
@@ -1935,15 +1816,10 @@
       "type": "tv-series",
       "year": 2022,
       "description": "Квалифицированная команда уборщиков во главе с экспертом Хейли Литч приезжает в самые грязные дома Великобритании, чтобы преобразить их и определить привычки, которые приводят к беспорядку.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 7,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 7
       },
-      "movieLength": null,
       "seriesLength": 45,
       "ageRating": 18,
       "poster": {
@@ -1968,17 +1844,11 @@
       "type": "cartoon",
       "year": 2025,
       "description": "Когда полицейский Найт и его пёс Грег оказываются в эпицентре взрыва, спасти их удаётся, лишь пересадив человеку голову собаки. Так на свет появляется Догмен — наполовину собака, наполовину человек.",
-      "status": null,
       "rating": {
         "kp": 6.669,
-        "imdb": 6.3,
-        "filmCritics": 6.5,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 6.3
       },
       "movieLength": 89,
-      "seriesLength": null,
-      "ageRating": null,
       "genres": [
         {
           "name": "мультфильм"
@@ -2025,17 +1895,11 @@
       "type": "movie",
       "year": 2023,
       "description": "Рассказ о жизненном пути и карьере Дэвида Аттенборо, который уже более шести десятилетий озвучивает программы о природе, чем вдохновляет миллионы людей.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 8.3,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 8.3
       },
       "movieLength": 50,
-      "seriesLength": null,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10893610/04842109-37fb-4844-945c-1646b2789eb1/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10893610/04842109-37fb-4844-945c-1646b2789eb1/x1000"
@@ -2058,17 +1922,10 @@
       "type": "tv-series",
       "year": 2025,
       "description": "Белл Гибсон ведёт блог, в котором с большим успехом выдаёт себя за больную раком и рассказывает подписчикам о борьбе с недугом.",
-      "status": "completed",
       "rating": {
         "kp": 7.167,
-        "imdb": 7.2,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 7.2
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10768063/98f22946-738c-4e3c-816c-cdd9eaeca344/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10768063/98f22946-738c-4e3c-816c-cdd9eaeca344/x1000"
@@ -2100,17 +1957,11 @@
       "type": "tv-series",
       "year": 2025,
       "description": "13-летнего Джейми обвиняют в убийстве одноклассницы.",
-      "status": "completed",
       "rating": {
         "kp": 7.441,
-        "imdb": 8.4,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 8.4
       },
-      "movieLength": null,
       "seriesLength": 55,
-      "ageRating": null,
       "genres": [
         {
           "name": "драма"
@@ -2142,17 +1993,10 @@
       "type": "tv-series",
       "year": 2024,
       "description": "Рассказ о жизни таинственных обитателей глубоководья и уникальной экосистеме одного из пяти мировых океанов.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 8,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 8
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/d05d4eeb-8ef5-405e-bf6f-8ff35d243f82/orig",
         "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/d05d4eeb-8ef5-405e-bf6f-8ff35d243f82/x1000"
@@ -2175,16 +2019,11 @@
       "type": "movie",
       "year": 2025,
       "description": "В живописных лесах Луизианы терпит крушение небольшой пассажирский самолет. Помощи ждать неоткуда, мобильная связь мертва. Единственный путь к спасению пролегает через болотистую местность, где обитают аллигаторы. У них агрессивный нрав, высокая подвижность и отменный аппетит. И кажется, уже ничто не в силах испортить им трапезу.",
-      "status": null,
       "rating": {
         "kp": 4.671,
-        "imdb": 4.3,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 4.3
       },
       "movieLength": 87,
-      "seriesLength": null,
       "ageRating": 18,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10703859/26d445c8-0bdf-47fd-8f1e-7b8b92daf7d4/orig",
@@ -2214,16 +2053,11 @@
       "type": "movie",
       "year": 2025,
       "description": "Крутой, но непокорный полицейский оказывается в паутине обмана и предательства во время расследования громкого дела.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 7.3,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 7.3
       },
       "movieLength": 156,
-      "seriesLength": null,
       "ageRating": 18,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/4486454/6b03a56c-a751-455b-a10e-e59c08576457/orig",
@@ -2247,20 +2081,13 @@
     {
       "id": 1264824,
       "name": "Вне закона: Правосудие без порядка",
-      "names": [],
       "type": "tv-series",
       "year": 2020,
       "description": "Молодая юристка Нихарика Сингх вынуждена сражаться за справедливость одновременно на стороне своего начальника Джанардана Джейтли и против него.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 6.8,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 6.8
       },
-      "movieLength": null,
-      "seriesLength": null,
       "ageRating": 18,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/2872bf8f-ff1e-41f8-837e-ca95260bfa2e/orig",
@@ -2287,20 +2114,13 @@
     {
       "id": 4860660,
       "name": "Пиноккио и его друзья",
-      "names": [],
       "type": "animated-series",
       "year": 2021,
       "description": "В волшебной лавке чудес папы Джепетто живут уморительный Пиноккио и его друзья: кукла-пират Фрида, и вечно сварливый Говорящий сверчок. Этим троим всегда есть чем заняться: когда они вместе, для них не существует мест, куда невозможно попасть, и задач, которые невозможно решить.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 5,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 5
       },
-      "movieLength": null,
-      "seriesLength": null,
       "ageRating": 6,
       "poster": {
         "url": "https://image.openmoviedb.com/kinopoisk-images/10812607/d4666198-930b-4b7c-9362-d568f0121cad/orig",
@@ -2330,25 +2150,13 @@
     {
       "id": 1392657,
       "name": "Рубеж: Внутренняя осада",
-      "names": [
-        {
-          "name": "Avrodh",
-          "language": "IN",
-          "type": null
-        }
-      ],
       "type": "tv-series",
       "year": 2020,
       "description": "История противостоянии Индии и Пакистана, затрагивающая реальные события, произошедшие в 2006 году. Напряженные отношения двух государств еще больше осложняются под влиянием деятельности террористической группировки, базирующейся в Кашмире. Жизни многих людей стремительно и кардинально меняются под давлением внешних обстоятельств.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 7.7,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 7.7
       },
-      "movieLength": null,
       "seriesLength": 40,
       "ageRating": 18,
       "poster": {
@@ -2376,19 +2184,13 @@
     {
       "id": 1385392,
       "name": "Невидимый",
-      "names": [],
       "type": "tv-series",
       "year": 2020,
       "description": "Западная Бенгалия. Сюда приезжают, чтобы отдохнуть на живописных горных курортах. И здесь же держит свой отель дружная семья, которая зарабатывает деньги честным трудом и мечтает о лучшей жизни. Первой ласточкой светлого будущего должна была стать свадьба старшего сына, но подготовка к празднику неожиданно обрывается из-за страшных событий, развернувшихся в горах. Именно в этих красивейших местах находят тело неизвестного человека. До этого в деревне неподалеку пропали две молодые девушки, что наводит на мысль о том, что загадочный убийца решил надолго задержаться в прекрасной Бенгалии.",
-      "status": "completed",
       "rating": {
         "kp": 0,
-        "imdb": 7.9,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 7.9
       },
-      "movieLength": null,
       "seriesLength": 32,
       "ageRating": 18,
       "poster": {
@@ -2413,16 +2215,11 @@
       "type": "movie",
       "year": 2024,
       "description": "Рухан — мошенник, выдающий себя за экзорциста. Взявшись за очередное дело, он рассчитывает на легкий заработок, но сталкивается с реальным злом.",
-      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 4.7,
-        "filmCritics": 6.1,
-        "russianFilmCritics": 0,
-        "await": 0
+        "imdb": 4.7
       },
       "movieLength": 158,
-      "seriesLength": null,
       "ageRating": 16,
       "genres": [
         {
@@ -2446,25 +2243,13 @@
     {
       "id": 1286572,
       "name": "Робин Гуд: Проказник из Шервуда",
-      "names": [
-        {
-          "name": "Robin Hood",
-          "language": "BR",
-          "type": "Streaming Globo Play"
-        }
-      ],
       "type": "animated-series",
       "year": 2014,
       "description": "Подросток Робин из Локсли и его верные друзья находятся вне закона и противостоят власти и тирании молодого принца Джона. Они всегда готовы помочь нуждающемуся и каждый день находят себе новые приключения.",
-      "status": "completed",
       "rating": {
         "kp": 8.938,
-        "imdb": 6.1,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": null
+        "imdb": 6.1
       },
-      "movieLength": null,
       "seriesLength": 11,
       "ageRating": 0,
       "poster": {
