@@ -1203,28 +1203,31 @@
       "isSeries": true
     },
     {
-      "id": 5379179,
-      "name": "Нулевой день",
-      "type": "tv-series",
-      "year": 2025,
-      "description": "Бывшему президенту США Джорджу Маллену поручено найти виновных в масштабной кибератаке, ставшей причиной хаоса и многочисленных жертв по всей стране. В поисках правды он вынужден раскрыть свои собственные тёмные тайны и рискнуть всем, что ему дорого.",
-      "status": "completed",
+      "id": 5626362,
+      "name": "Южный парк: Конец ожирения",
+      "type": "cartoon",
+      "year": 2024,
+      "description": "Появление нового средства для похудения вызывает волнение в Южном парке. Когда Картману отказывают в доступе к нему, дети решают принять меры.",
+      "status": null,
       "rating": {
-        "kp": 6.831,
-        "imdb": 7,
+        "kp": 6.904,
+        "imdb": 7.1,
         "filmCritics": 0,
-        "russianFilmCritics": 25,
+        "russianFilmCritics": 0,
         "await": null
       },
-      "movieLength": null,
+      "movieLength": 50,
       "seriesLength": null,
       "ageRating": null,
       "genres": [
         {
-          "name": "триллер"
+          "name": "мультфильм"
         },
         {
-          "name": "драма"
+          "name": "комедия"
+        },
+        {
+          "name": "криминал"
         }
       ],
       "countries": [
@@ -1232,35 +1235,39 @@
           "name": "США"
         }
       ],
-      "isSeries": true,
+      "isSeries": false,
       "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/9784475/24ab26c5-7194-44bb-a216-0153d999359c/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/24ab26c5-7194-44bb-a216-0153d999359c/orig"
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4483445/8b5c99a7-7496-4c09-8531-4957cb77a0e5/x1000",
+        "url": "https://image.openmoviedb.com/kinopoisk-images/4483445/8b5c99a7-7496-4c09-8531-4957cb77a0e5/orig"
       }
     },
     {
-      "id": 6548082,
-      "name": "Обратный отсчет: Пол vs Тайсон",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "О том, как живут и тренируются боксеры Джейк Пол и Майк Тайсон, пока они готовятся к поединку в тяжелом весе.",
-      "status": "completed",
+      "id": 7129836,
+      "name": "Рок-н-ролл",
+      "type": "movie",
+      "year": 2016,
+      "description": "Только что окончивший колледж Дэвид мечтает стать крупным музыкальным агентом. Он переезжает в Лос-Анджелес и знакомится со своим кумиром — известным агентом рок-звёзд Уильямом Смайтом, который даже предлагает ему работу в своём агентстве. Правда, есть одно условие: Дэвид должен заключить с Уильямом пари, что сможет проявить себя и в течение 4 месяцев подписать контракт с музыкантом. А в случае неудачи Дэвид лишается своей машины Ford T-Bird 1959 года, на которую сразу положил глаз Смайт.",
+      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 5.9,
+        "imdb": 5.7,
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
       },
-      "movieLength": null,
+      "movieLength": 91,
       "seriesLength": null,
-      "ageRating": null,
+      "ageRating": 18,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/31a9fd74-1942-4847-abf0-41ded5005113/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/31a9fd74-1942-4847-abf0-41ded5005113/x1000"
+      },
       "genres": [
         {
-          "name": "документальный"
+          "name": "комедия"
         },
         {
-          "name": "спорт"
+          "name": "музыка"
         }
       ],
       "countries": [
@@ -1268,11 +1275,7 @@
           "name": "США"
         }
       ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10953618/f7d07a58-6c4d-44c8-9756-9c4e20a7f40a/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10953618/f7d07a58-6c4d-44c8-9756-9c4e20a7f40a/orig"
-      }
+      "isSeries": false
     },
     {
       "id": 6458996,
@@ -1350,15 +1353,15 @@
       "isSeries": true
     },
     {
-      "id": 6456172,
-      "name": "Как вода для шоколада",
-      "type": "tv-series",
+      "id": 6974240,
+      "name": "Adult Swim. Святочное полено 2: Расширение",
+      "type": "movie",
       "year": 2024,
-      "description": "Тита де ла Гарса и Педро Мусквис влюблены, но им нельзя быть вместе из-за старых семейных традиций. Чтобы справиться с нахлынувшими чувствами, Тита отдает всю себя готовке.",
-      "status": "completed",
+      "description": "Выжив в той бойне, Зои пытается вернуться к обычной жизни, но ей всюду мерещится летающее горящее полено. Приятель Джейкстер предлагает девушке отправиться в отпуск и расслабиться, но по дороге их машина ломается, и друзья застревают в небольшом городке. Пока Джейкстер занят изучением автомастерской, Зои пытается найти способ покинуть кажущееся ей зловещим место, но внезапно оказывается в рождественском романтическом фильме Hallmark, где шагу нельзя ступить, чтобы не наткнуться на высокого красавца. А кровожадное полено, спалив полицейский участок со всеми уликами, пускается в погоню за Зои.",
+      "status": null,
       "rating": {
         "kp": 0,
-        "imdb": 7.6,
+        "imdb": 6.4,
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
@@ -1366,52 +1369,55 @@
       "movieLength": null,
       "seriesLength": null,
       "ageRating": null,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/10812607/cb415b93-a60e-462c-8b47-7e185c82389a/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10812607/cb415b93-a60e-462c-8b47-7e185c82389a/x1000"
+      },
       "genres": [
         {
-          "name": "драма"
+          "name": "ужасы"
         },
         {
-          "name": "мелодрама"
+          "name": "комедия"
         }
       ],
       "countries": [
         {
           "name": "США"
-        },
-        {
-          "name": "Мексика"
         }
       ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/29d9e6ec-e26b-4b31-8a5d-5b8b0bc8b18e/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/29d9e6ec-e26b-4b31-8a5d-5b8b0bc8b18e/orig"
-      }
+      "isSeries": false
     },
     {
-      "id": 7176947,
-      "name": "Афродеревня",
-      "type": "tv-series",
-      "year": 2025,
-      "description": "Сорокапятилетний Анатолий Столбов — уже несколько лет глава деревни Рузское. Он успешно осваивает бюджет, периодически устраивая обильные застолья и показательные выступления для комиссии из центра. Его дочь Таня год назад уехала в Африку преподавать русский язык, и он жутко по ней скучает. Дочь наконец возвращается — вместе с группой африканцев, которым негде жить из-за стихийного бедствия. Столбов не хочет принимать гостей, но тут приезжает комиссия из центра. Таня представляет африканцев комиссии и говорит, что по инициативе Анатолия их деревня участвует в международной программе взаимопомощи и расселения. Комиссия хвалит Столбова и обещает выделить деньги на развитие программы. Поэтому Столбов и прочие селяне вынуждены терпеть экзотических гостей. Но когда Анатолий узнает, что Таня собирается замуж за африканца, его терпению приходит конец.",
-      "status": "completed",
+      "id": 6338665,
+      "name": "Мама",
+      "type": "movie",
+      "year": 2024,
+      "description": "Переживающий первый взрослый жизненный кризис Никита случайно находит временной портал. В альтернативном мире он встречает «параллельных» родных: свою девушку, ушедшую маму и даже самого себя. Но прежде чем дверь между мирами необратимо закроется, в самых страшных и трагических обстоятельствах он должен найти выход и исправить фатальные ошибки, которые совершил по отношению к близким.",
+      "status": null,
       "rating": {
-        "kp": 7.042,
-        "imdb": 6.8,
+        "kp": 0,
+        "imdb": 8.5,
         "filmCritics": 0,
         "russianFilmCritics": 0,
-        "await": null
+        "await": 0
       },
-      "movieLength": null,
-      "seriesLength": 24,
-      "ageRating": 18,
+      "movieLength": 91,
+      "seriesLength": null,
+      "ageRating": 16,
       "poster": {
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10703959/fd5791dc-6759-48de-927c-24a753a3af95/orig",
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10703959/fd5791dc-6759-48de-927c-24a753a3af95/x1000"
+        "url": "https://image.openmoviedb.com/kinopoisk-images/4486362/069a31bc-071a-41c4-a914-fab92e43a995/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4486362/069a31bc-071a-41c4-a914-fab92e43a995/x1000"
       },
       "genres": [
         {
-          "name": "комедия"
+          "name": "драма"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "фантастика"
         }
       ],
       "countries": [
@@ -1419,7 +1425,7 @@
           "name": "Россия"
         }
       ],
-      "isSeries": true
+      "isSeries": false
     },
     {
       "id": 6274155,
@@ -1572,29 +1578,28 @@
       }
     },
     {
-      "id": 5511571,
-      "name": "Резервисты",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "Февраль 2022, рота мобилизованных из Донецка отправляется брать Мариуполь. История о вчерашних гражданских, которые выполнили свой долг, не умея стрелять.",
-      "status": "completed",
+      "id": 6168543,
+      "name": "Волшебная кисточка",
+      "type": "cartoon",
+      "year": 2000,
+      "description": "Давным-давно, в стране, где правил император, жил мальчик-сирота по имени Малян. Он мечтал стать известным художником. Но у него не было даже кисточки.",
+      "status": null,
       "rating": {
-        "kp": 7.582,
-        "imdb": 4.3,
+        "kp": 0,
+        "imdb": 7.4,
         "filmCritics": 0,
         "russianFilmCritics": 0,
-        "await": null
+        "await": 0
       },
-      "movieLength": null,
-      "seriesLength": 30,
+      "movieLength": 15,
+      "seriesLength": null,
       "ageRating": null,
-      "poster": {
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10835644/b481014e-b809-46b6-a72f-fd1acab2fd0b/orig",
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10835644/b481014e-b809-46b6-a72f-fd1acab2fd0b/x1000"
-      },
       "genres": [
         {
-          "name": "драма"
+          "name": "короткометражка"
+        },
+        {
+          "name": "мультфильм"
         }
       ],
       "countries": [
@@ -1602,32 +1607,37 @@
           "name": "Россия"
         }
       ],
-      "isSeries": true
+      "isSeries": false
     },
     {
-      "id": 5511558,
-      "name": "Мобилизация",
-      "type": "tv-series",
-      "year": 2023,
-      "description": "Февраль 2022 года, в Госдуму вносят предложение о признании независимости ДНР и ЛНР. За происходящим наблюдают 3 друга из Донецка. Одному из них как раз пришло предложение о работе в Москве, но объявляется всеобщая мобилизация.",
-      "status": "completed",
+      "id": 6375538,
+      "name": "Глухой номер",
+      "type": "movie",
+      "year": 2024,
+      "description": "Робкий офисный клерк оказывается похоронен заживо, а единственной ниточкой связывающей его с внешним миром оказывается оставленный в гробу сотовый телефон. Придя в себя, мужчина пытается дозвониться в службу спасения, но диспетчер почему-то не спешит высылать ему спасателей на помощь.",
+      "status": null,
       "rating": {
-        "kp": 7.626,
-        "imdb": 5,
+        "kp": 0,
+        "imdb": 8.9,
         "filmCritics": 0,
         "russianFilmCritics": 0,
-        "await": null
+        "await": 0
       },
-      "movieLength": null,
-      "seriesLength": 15,
-      "ageRating": 18,
-      "poster": {
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10900341/18c8249f-ba7f-4595-8220-e01a0c60ee32/orig",
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10900341/18c8249f-ba7f-4595-8220-e01a0c60ee32/x1000"
-      },
+      "movieLength": 16,
+      "seriesLength": null,
+      "ageRating": 16,
       "genres": [
         {
-          "name": "драма"
+          "name": "короткометражка"
+        },
+        {
+          "name": "ужасы"
+        },
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "музыка"
         }
       ],
       "countries": [
@@ -1635,7 +1645,11 @@
           "name": "Россия"
         }
       ],
-      "isSeries": true
+      "isSeries": false,
+      "poster": {
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/9784475/0f400ac7-630f-402f-aba1-4e6b0da6dd3e/x1000",
+        "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/0f400ac7-630f-402f-aba1-4e6b0da6dd3e/orig"
+      }
     },
     {
       "id": 6648594,
@@ -1674,25 +1688,29 @@
       }
     },
     {
-      "id": 6600766,
-      "name": "Это Париж!",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "Гаспар Бертиль — владелец кабаре-клуба «Весь Париж», который потерял былую славу после эпидемии коронавируса. Мужчина решает уйти на покой и переехать в сельскую местность с женой. Сеть супермаркетов уже готова выкупить у него заведение, но уважение к семейному бизнесу, которым когда-то руководил его отец, заставляет Гаспара передумать, и он находит новых инвесторов. А еще управлять жизнью Гаспара и его клубом рвутся две дамы — мать, бросившая семью ради карьеры танцовщицы в США, и мачеха, воспитавшая его как родного сына.",
-      "status": "completed",
+      "id": 6738356,
+      "name": "Садовник",
+      "type": "movie",
+      "year": 2025,
+      "description": "В правительстве решают устранить Сержа, который хранит государственную тайну. От смерти мужчину спасает его садовник Лео.",
+      "status": null,
       "rating": {
-        "kp": 7.175,
-        "imdb": 6.1,
+        "kp": 5.112,
+        "imdb": 4.1,
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": null
       },
-      "movieLength": null,
+      "movieLength": 110,
       "seriesLength": null,
-      "ageRating": 18,
+      "ageRating": null,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/aae3d484-b336-40f8-b940-8f10fc2336b3/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/aae3d484-b336-40f8-b940-8f10fc2336b3/x1000"
+      },
       "genres": [
         {
-          "name": "драма"
+          "name": "боевик"
         },
         {
           "name": "комедия"
@@ -1703,11 +1721,7 @@
           "name": "Франция"
         }
       ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10812607/ee1aef38-6083-4319-919d-2adf71b6628a/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10812607/ee1aef38-6083-4319-919d-2adf71b6628a/orig"
-      }
+      "isSeries": false
     },
     {
       "id": 6455286,
@@ -1782,64 +1796,91 @@
       }
     },
     {
-      "id": 6431275,
-      "name": "Будущее",
-      "type": "tv-series",
-      "year": 2023,
-      "description": "Тридцатилетний Элиотт живет с сестрой-инвалидом и скучает на работе в магазине бытовой техники. Однажды вечером он отправляет сообщение на свой первый адрес электронной почты. Из-за компьютерной ошибки Элиотт начинает общаться с маленьким мальчиком, которым был 20 лет назад, и видит, как его жизнь переворачивается с ног на голову.",
-      "status": "completed",
+      "id": 1319263,
+      "name": "Герой СамСам",
+      "names": [
+        {
+          "name": "Kosmiskais SamSams",
+          "language": "LV",
+          "type": null
+        }
+      ],
+      "type": "cartoon",
+      "year": 2019,
+      "description": "СамПланета в опасности! На родную обитель знаменитого СамСама напали Мрачуны – инопланетные жуки, которые распространяют по всей Вселенной… грусть. Чтобы победить полчища Мрачунов, герою на помощь придет его давняя подруга по переписке с соседней планеты.",
+      "status": null,
       "rating": {
-        "kp": 0,
-        "imdb": 6.9,
+        "kp": 8.168,
+        "imdb": 5,
         "filmCritics": 0,
         "russianFilmCritics": 0,
-        "await": 0
+        "await": null
       },
-      "movieLength": null,
+      "movieLength": 77,
       "seriesLength": null,
-      "ageRating": null,
+      "ageRating": 6,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/9bbd820c-ba4a-4dcd-9517-82d7de8a7e43/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/1773646/9bbd820c-ba4a-4dcd-9517-82d7de8a7e43/x1000"
+      },
       "genres": [
         {
-          "name": "фантастика"
+          "name": "мультфильм"
         },
         {
-          "name": "драма"
+          "name": "приключения"
+        },
+        {
+          "name": "семейный"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Бельгия"
+        },
+        {
+          "name": "Франция"
+        }
+      ],
+      "isSeries": false
+    },
+    {
+      "id": 727222,
+      "name": "Таинственные золотые города",
+      "names": [],
+      "type": "animated-series",
+      "year": 2012,
+      "description": "Десять тысяч лет назад народ Му населял Землю. Их научные познания были необычайно развиты. Император Му предвидел конец своего мира. Он построил семь городов в четырех углах мира, где скрывал семь величайших секретов цивилизации в надежде, что однажды будущие цивилизации начнутся там, где его народ остановился. Ученые Му решили, что только двое детей, достойных этого наследия, могут иметь к ним доступ.",
+      "status": "completed",
+      "rating": {
+        "kp": 9,
+        "imdb": 8.1,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": null
+      },
+      "movieLength": null,
+      "seriesLength": 23,
+      "ageRating": 6,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/8f78d005-0b83-4225-adca-f2c3f5b97d96/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4774061/8f78d005-0b83-4225-adca-f2c3f5b97d96/x1000"
+      },
+      "genres": [
+        {
+          "name": "мультфильм"
+        },
+        {
+          "name": "фэнтези"
         },
         {
           "name": "комедия"
-        }
-      ],
-      "countries": [
+        },
         {
-          "name": "Франция"
-        }
-      ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10809116/cb52d81e-fe4e-42a8-911d-002ebd599fc1/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10809116/cb52d81e-fe4e-42a8-911d-002ebd599fc1/orig"
-      }
-    },
-    {
-      "id": 6399279,
-      "name": "Реванш",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "Историческая битва между чемпионом мира по шахматам Гарри Каспаровым и суперкомпьютером Deep Blue компании IBM.",
-      "status": "completed",
-      "rating": {
-        "kp": 0,
-        "imdb": 7.3,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
-      "genres": [
+          "name": "приключения"
+        },
         {
-          "name": "триллер"
+          "name": "семейный"
         }
       ],
       "countries": [
@@ -1847,14 +1888,10 @@
           "name": "Франция"
         },
         {
-          "name": "Венгрия"
+          "name": "Бельгия"
         }
       ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10953618/eb25407f-8a7e-408b-8f56-270847c0bce4/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10953618/eb25407f-8a7e-408b-8f56-270847c0bce4/orig"
-      }
+      "isSeries": true
     },
     {
       "id": 6329360,
@@ -1926,57 +1963,85 @@
       "isSeries": true
     },
     {
-      "id": 7038344,
-      "name": "Заповедник Шамвари",
-      "type": "tv-series",
-      "year": 2018,
-      "description": "История частного заповедника Шамвари, расположенного в Восточно-Капской провинции ЮАР, началась в 1990 году, когда местный бизнесмен приобрёл небольшую ферму, чтобы проводить время с семьёй. Со временем границы участка расширились, и владелец решил превратить его в заповедник. Сегодня в Шамвари на территории в 25 тысяч гектаров обитает более 5000 представителей разнообразной фауны Южной Африки, в том числе «большая пятёрка» в полном составе: носороги, львы, леопарды, слоны и буйволы.",
-      "status": "completed",
+      "id": 5582364,
+      "name": "Догмен: Пушистая справедливость",
+      "type": "cartoon",
+      "year": 2025,
+      "description": "Когда полицейский Найт и его пёс Грег оказываются в эпицентре взрыва, спасти их удаётся, лишь пересадив человеку голову собаки. Так на свет появляется Догмен — наполовину собака, наполовину человек.",
+      "status": null,
       "rating": {
-        "kp": 0,
-        "imdb": 8,
-        "filmCritics": 0,
+        "kp": 6.669,
+        "imdb": 6.3,
+        "filmCritics": 6.5,
         "russianFilmCritics": 0,
-        "await": 0
+        "await": null
       },
-      "movieLength": null,
-      "seriesLength": 30,
-      "ageRating": 16,
-      "poster": {
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/01c5f851-b3db-43ab-b415-6ddc142c8e2a/orig",
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10671298/01c5f851-b3db-43ab-b415-6ddc142c8e2a/x1000"
-      },
-      "genres": [
-        {
-          "name": "документальный"
-        }
-      ],
-      "countries": [
-        {
-          "name": "Великобритания"
-        }
-      ],
-      "isSeries": true
-    },
-    {
-      "id": 6600184,
-      "name": "Солнечная система",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "Профессор Брайан Кокс раскрывает странные миры Солнечной системы.",
-      "status": "completed",
-      "rating": {
-        "kp": 0,
-        "imdb": 8.9,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "movieLength": null,
-      "seriesLength": 58,
+      "movieLength": 89,
+      "seriesLength": null,
       "ageRating": null,
       "genres": [
         {
+          "name": "мультфильм"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "семейный"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "фантастика"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Великобритания"
+        }
+      ],
+      "isSeries": false,
+      "poster": {
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/9784475/d432cf07-1a7e-4ff4-a1e9-4a71ebcb604b/x1000",
+        "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/d432cf07-1a7e-4ff4-a1e9-4a71ebcb604b/orig"
+      }
+    },
+    {
+      "id": 7225545,
+      "name": "Дэвид Аттенборо: Жизнь на Земле",
+      "type": "movie",
+      "year": 2023,
+      "description": "Рассказ о жизненном пути и карьере Дэвида Аттенборо, который уже более шести десятилетий озвучивает программы о природе, чем вдохновляет миллионы людей.",
+      "status": null,
+      "rating": {
+        "kp": 0,
+        "imdb": 8.3,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "movieLength": 50,
+      "seriesLength": null,
+      "ageRating": null,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/10893610/04842109-37fb-4844-945c-1646b2789eb1/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10893610/04842109-37fb-4844-945c-1646b2789eb1/x1000"
+      },
+      "genres": [
+        {
           "name": "документальный"
         }
       ],
@@ -1985,11 +2050,7 @@
           "name": "Великобритания"
         }
       ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4716873/c545f8e5-7c7e-4eb4-8231-520f6e292073/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/4716873/c545f8e5-7c7e-4eb4-8231-520f6e292073/orig"
-      }
+      "isSeries": false
     },
     {
       "id": 6580619,
@@ -2109,67 +2170,71 @@
       "isSeries": true
     },
     {
-      "id": 6431324,
-      "name": "Слишком хорошо, чтобы быть правдой",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "Богатый бизнесмен предлагает матери-одиночке и уборщице Рейчел хорошую работу. Она соглашается, но, чем больше вовлекается в его дела, тем больше подозревает, что он не так-то прост.",
-      "status": "completed",
+      "id": 6399111,
+      "name": "Абсолютный хищник",
+      "type": "movie",
+      "year": 2025,
+      "description": "В живописных лесах Луизианы терпит крушение небольшой пассажирский самолет. Помощи ждать неоткуда, мобильная связь мертва. Единственный путь к спасению пролегает через болотистую местность, где обитают аллигаторы. У них агрессивный нрав, высокая подвижность и отменный аппетит. И кажется, уже ничто не в силах испортить им трапезу.",
+      "status": null,
       "rating": {
-        "kp": 0,
-        "imdb": 5.7,
+        "kp": 4.671,
+        "imdb": 4.3,
         "filmCritics": 0,
         "russianFilmCritics": 0,
-        "await": 0
+        "await": null
       },
-      "movieLength": null,
+      "movieLength": 87,
       "seriesLength": null,
-      "ageRating": null,
-      "genres": [
-        {
-          "name": "драма"
-        }
-      ],
-      "countries": [
-        {
-          "name": "Ирландия"
-        },
-        {
-          "name": "Великобритания"
-        }
-      ],
-      "isSeries": true,
+      "ageRating": 18,
       "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10703959/ade4f15c-4fbb-469e-a2fa-71697f154df1/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/10703959/ade4f15c-4fbb-469e-a2fa-71697f154df1/orig"
-      }
-    },
-    {
-      "id": 6161450,
-      "name": "Рейс 814: Захват Кандагара",
-      "type": "tv-series",
-      "year": 2024,
-      "description": "24 декабря 1999 года. Самолет Indian Airlines, следующий по маршруту Катманду — Дели, захватывают террористы.",
-      "status": "completed",
-      "rating": {
-        "kp": 0,
-        "imdb": 5.8,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
+        "url": "https://image.openmoviedb.com/kinopoisk-images/10703859/26d445c8-0bdf-47fd-8f1e-7b8b92daf7d4/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10703859/26d445c8-0bdf-47fd-8f1e-7b8b92daf7d4/x1000"
       },
-      "movieLength": null,
-      "seriesLength": null,
-      "ageRating": null,
       "genres": [
         {
           "name": "триллер"
         },
         {
-          "name": "драма"
+          "name": "ужасы"
         },
         {
-          "name": "история"
+          "name": "боевик"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Великобритания"
+        }
+      ],
+      "isSeries": false
+    },
+    {
+      "id": 7086794,
+      "name": "Дева",
+      "type": "movie",
+      "year": 2025,
+      "description": "Крутой, но непокорный полицейский оказывается в паутине обмана и предательства во время расследования громкого дела.",
+      "status": null,
+      "rating": {
+        "kp": 0,
+        "imdb": 7.3,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "movieLength": 156,
+      "seriesLength": null,
+      "ageRating": 18,
+      "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/4486454/6b03a56c-a751-455b-a10e-e59c08576457/orig",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4486454/6b03a56c-a751-455b-a10e-e59c08576457/x1000"
+      },
+      "genres": [
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "триллер"
         }
       ],
       "countries": [
@@ -2177,11 +2242,7 @@
           "name": "Индия"
         }
       ],
-      "isSeries": true,
-      "poster": {
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/1898899/df28796e-e454-4dbe-ac16-1833c2f07d8f/x1000",
-        "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/df28796e-e454-4dbe-ac16-1833c2f07d8f/orig"
-      }
+      "isSeries": false
     },
     {
       "id": 1264824,
@@ -2347,39 +2408,28 @@
       "isSeries": true
     },
     {
-      "id": 1393461,
-      "name": "Жульничество 1992: История Харшада Мехты",
-      "names": [],
-      "type": "tv-series",
-      "year": 2020,
-      "description": "Предприимчивый Харшад, устав от финансовых неудач и кризиса среднего возраста, начинает жизнь с чистого листа и погружается в торговлю на фондовом рынке. За несколько лет Харшад становится довольно успешным биржевым маклером, однако его не устраивает постоянный риск. В погоне за стабильностью он придумывает себе новую профессию: обучение биржевым спекуляциям. Эта затея быстро приводит к еще более безумным авантюрам.",
-      "status": "completed",
+      "id": 6303864,
+      "name": "Лабиринт 3",
+      "type": "movie",
+      "year": 2024,
+      "description": "Рухан — мошенник, выдающий себя за экзорциста. Взявшись за очередное дело, он рассчитывает на легкий заработок, но сталкивается с реальным злом.",
+      "status": null,
       "rating": {
-        "kp": 7.522,
-        "imdb": 9.2,
-        "filmCritics": 0,
+        "kp": 0,
+        "imdb": 4.7,
+        "filmCritics": 6.1,
         "russianFilmCritics": 0,
-        "await": null
+        "await": 0
       },
-      "movieLength": null,
+      "movieLength": 158,
       "seriesLength": null,
-      "ageRating": 18,
-      "poster": {
-        "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/58e9e2df-9d1c-4390-84cd-76485b518043/orig",
-        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4774061/58e9e2df-9d1c-4390-84cd-76485b518043/x1000"
-      },
+      "ageRating": 16,
       "genres": [
         {
-          "name": "триллер"
+          "name": "ужасы"
         },
         {
-          "name": "драма"
-        },
-        {
-          "name": "криминал"
-        },
-        {
-          "name": "биография"
+          "name": "комедия"
         }
       ],
       "countries": [
@@ -2387,7 +2437,11 @@
           "name": "Индия"
         }
       ],
-      "isSeries": true
+      "isSeries": false,
+      "poster": {
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/10768063/996eb0a2-eddb-4e6f-86f9-9c667c204940/x1000",
+        "url": "https://image.openmoviedb.com/kinopoisk-images/10768063/996eb0a2-eddb-4e6f-86f9-9c667c204940/orig"
+      }
     },
     {
       "id": 1286572,
