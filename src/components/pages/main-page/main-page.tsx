@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../../../layout/header/header";
 import News from "../../blocks/news/news";
-import NewsCategory from "../../ui/news-category/news-category";
+import NewsCategory from "../../blocks/news-category/news-category";
 import Weather from "../../blocks/weather/weather";
 import { Category, CategoryList } from "../../../types/types";
 import { HiddenTitle, Main } from "./styles";
