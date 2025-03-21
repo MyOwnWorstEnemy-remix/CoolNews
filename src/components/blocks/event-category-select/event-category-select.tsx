@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { EventCategory, EventDescription, EventCity, EventType, EventSubType } from "../../../types/types";
-import { Selector, Title, List, SubList, CheckboxInput, RadioInput} from "./styles";
+import { Selector, Title, List, SubList} from "./styles";
+import Checkbox from "../../ui/checkbox/checkbox";
+import Radio from "../../ui/radio/radio";
 
 type SetCategory = (category: EventCategory) => void;
 
@@ -92,10 +94,7 @@ function EventCategorySelect ({categories, currentCategory, setCategory}: {categ
             <List>
                 {categories.city.map((category) => 
                     <li key={category.id}>
-                        <label>
-                            <RadioInput type="radio" id={category.value} name="event-city" value={category.value} onChange={handleCityChange} checked={cityRadio[category.value]}/>
-                            {category.text}
-                        </label>
+                        <Radio text={category.text} value={category.value} name={"event-city"} handleChange={handleCityChange} isChecked={cityRadio[category.value]} />
                     </li>
                 )}
             </List>
@@ -103,21 +102,16 @@ function EventCategorySelect ({categories, currentCategory, setCategory}: {categ
             <List>
                 {categories.type.map((category) => 
                     <li key={category.id}>
-                        <label>
-                            <RadioInput type="radio" id={category.value} name="event-type" value={category.value} onChange={handleTypeChange} checked={typeRadio[category.value]}/>
-                            {category.text}
-                        </label>
+                        <Radio text={category.text} value={category.value} name={"event-type"} handleChange={handleTypeChange} isChecked={typeRadio[category.value]} />
                         {category.value === 'food' ? 
                             <SubList>
                                 {categories.subtype.map((subcategory) => 
                                     <li key={subcategory.id}>
-                                        <label>
-                                            <CheckboxInput type="checkbox" id={subcategory.value} name={`subtype-${subcategory.value}`} value={subcategory.value} onChange={handleSubtypeChange} disabled={!typeRadio[category.value]}/>
-                                            {subcategory.text}
-                                        </label>
+                                        <Checkbox text={subcategory.text} value={subcategory.value} name={`subtype-${subcategory.value}`} handleChange={handleSubtypeChange} isDisabled={!typeRadio[category.value]} />
                                     </li>
                                 )}
-                            </SubList>: null}
+                            </SubList> 
+                        : null}
                     </li>
                 )}
             </List>

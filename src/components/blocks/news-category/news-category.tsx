@@ -1,6 +1,7 @@
 import { CategoryList } from "../../../types/types";
 import { Category } from "../../../types/types";
-import { Selector, Title, List, Input } from "./styles";
+import { Selector, Title, List } from "./styles";
+import Checkbox from "../../ui/checkbox/checkbox";
 
 type SetCategory = (category: Category[]) => void;
 
@@ -20,10 +21,7 @@ function NewsCategory ({categories, categoryList, setCategoryList} : {categories
         <List>
             {categories.map((category) => 
                 <li key={category.id}>
-                    <label>
-                        <Input type="checkbox" id={category.name} name={`news-category-${category.name}`} value={category.name} onChange={handleCheckboxChange}/>
-                        {category.text}
-                    </label>
+                    <Checkbox text={category.text} value={category.name} name={`news-category-${category.name}`} handleChange={handleCheckboxChange} isDisabled={false} />
                 </li>
             )}
         </List>
