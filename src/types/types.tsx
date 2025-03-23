@@ -1,4 +1,9 @@
+export type Favourite = {
+  "id": string, 
+}
+
 export type Article = {
+  "id": number,
   "title": string,
   "description": string,
   "content": string,
