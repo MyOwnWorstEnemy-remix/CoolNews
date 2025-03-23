@@ -4,11 +4,13 @@ export const Card = styled.article`
     width: 100%;
     box-sizing: border-box;
     padding: 20px 30px 30px;
-    border: 1px solid #10264c;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 20px;
+    position: relative;
 
     h3 {
         font-size: 22px;
@@ -16,6 +18,12 @@ export const Card = styled.article`
         width: 100%;
         margin: 0;
     }
+`
+
+export const StyledLikesButton = styled.div`
+    position: absolute;
+    top: 25px;
+    right: 30px;
 `
 
 export const Preview = styled.div`

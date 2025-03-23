@@ -1,10 +1,38 @@
+import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { addFav, removeFav } from "../../../store/fav-slice";
 import { Film } from "../../../types/types";
-import { Card, Preview, Content, Info, Rating } from "./styles";
+import { Card, StyledLikesButton, Preview, Content, Info, Rating } from "./styles";
+import Like from "../like/like";
 
-function FilmCard({movie}: {movie: Film}) {
+function MovieCard({movie, liked}: {movie: Film, liked: boolean}) {
+    const [isLiked, setIsLiked] = useState(false);
+    const dispatch = useDispatch();
+    const serverUrl = 'http://localhost:3000/favourite';
+
+    useEffect(() => {
+        if(liked) {
+            setIsLiked(true);
+        }
+    }, []);
+
+    const handleLikeClick = async () => {
+        if(!isLiked) {
+            dispatch(addFav({data: movie, type: "ADD_FILM"}));
+            await fetch(serverUrl, {method: "POST", body: JSON.stringify({id: `film-${movie.id}`})});
+        } else {
+            dispatch(removeFav({id: movie.id, type: "film"}));
+            await fetch(`${serverUrl}/film-${movie.id}`, {method: "DELETE"});
+        }
+        setIsLiked((like) => !like);
+    }
+
     return (
         <Card>
             <h3>{movie.name}</h3>
+            <StyledLikesButton>
+                <Like likes={0} isLiked={isLiked} handleLikeClick={handleLikeClick} />
+            </StyledLikesButton>
             <Preview>
                 <img src={movie.poster.url} width={200} height={300}/>
                 {movie.ageRating ? <span>{movie.ageRating}+</span> : null}
@@ -30,4 +58,4 @@ function FilmCard({movie}: {movie: Film}) {
     )
 }
 
-export default FilmCard;
+export default MovieCard;
