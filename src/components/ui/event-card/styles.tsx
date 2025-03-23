@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Article = styled.article`
     background-color: #ffffff;
     border: 1px solid #c2c2c2;
+    border-radius: 20px;
+    overflow: hidden;
     width: 100%;
     padding: 0;
 
@@ -82,22 +84,5 @@ export const Footer = styled.footer`
         &:hover {
             background-color: #104a9d;
         }
-    }
-
-    div {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        color: #ff97bb;
-        cursor: pointer;
-
-        &:hover {
-            color: #d71868;
-        }
-    }
-
-    svg {
-        width: 16px;
-        height: 16px;
-    }
+    }    
 `

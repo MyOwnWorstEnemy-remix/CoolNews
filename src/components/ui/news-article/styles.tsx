@@ -1,16 +1,28 @@
 import styled from "styled-components";
 
 export const StyledArticle = styled.div`
+    box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #c2c2c2;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #c2c2c2;
+    border-radius: 20px;
+    position: relative;
 `
 
 export const Title = styled.h3`
+    color: #10264c;
     font-size: 22px;
     margin: 0;
     margin-bottom: 10px;
+    width: 85%;
+`
+
+export const StyledLikesButton = styled.div`
+    position: absolute;
+    top: 25px;
+    right: 30px;
 `
 
 export const Description = styled.p`
