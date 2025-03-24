@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
+import { useFetchFavourite } from "../../../custom-hooks/hooks";
 import NewsArticle from "../../ui/news-article/news-article";
 import { Article, ArticleList } from "../../../types/types";
 import { Category } from "../../../types/types";
 import { Section, Title, List } from "./styles";
 
 function News({categoryList}: {categoryList: Category[]}) {
-  const serverUrl = 'http://localhost:3000/articles';
   const [articles, setArticles] = useState<Article[]>([]);
-  
+  const favourites = useFetchFavourite("news");
+  const serverUrl = 'http://localhost:3000/articles';
 
   const sortData = (data: Article[]): Article[] => {
     const sortedData = data.sort((info1, info2) => {
@@ -42,8 +43,8 @@ function News({categoryList}: {categoryList: Category[]}) {
       <Title>Новости</Title>
       <List>
         {articles.length > 0 ? articles.map((article) => 
-            <li key={article.url}>
-               <NewsArticle article={article}/>
+            <li key={article.id}>
+               <NewsArticle article={article} liked={favourites.includes(article.id)}/>
             </li>
         ) : null}
       </List>

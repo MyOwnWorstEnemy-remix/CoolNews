@@ -1,17 +1,18 @@
 import { useEffect, useState } from "react";
+import { useFetchFavourite } from "../../../custom-hooks/hooks";
 import { Section, List, Title } from "./styles";
 import { Film } from "../../../types/types";
-import FilmCard from "../../ui/film-card/film-card";
+import MovieCard from "../../ui/movie-card/movie-card";
 
 function MovieList() {
     const [movies, setMovies] = useState<Film[]>([]);
-    const serverUrl = 'http://localhost:3000/films';
+    const favourites = useFetchFavourite("film");
+    const filmsUrl = 'http://localhost:3000/films';
 
     useEffect(() => {
-        fetch(serverUrl)
+        fetch(filmsUrl)
         .then((resp) => resp.json())
         .then((data) => {
-            console.log(data);
             setMovies(data);
         });
     }, []);
@@ -22,7 +23,7 @@ function MovieList() {
             <List>
                 {movies.length > 0 ? movies.map((movie) => 
                     <li key={movie.id}>
-                        <FilmCard movie={movie} />
+                        <MovieCard movie={movie} liked={favourites.includes(movie.id)}/>
                     </li>
                 ) : null}
             </List>

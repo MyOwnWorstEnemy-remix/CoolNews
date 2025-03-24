@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useFetchFavourite } from "../../../custom-hooks/hooks";
 import { Section, Title, List } from "./styles";
 import { Event, EventCategory } from "../../../types/types";
 import EventCard from "../../ui/event-card/event-card";
@@ -10,6 +11,8 @@ type Item = {
 
 function EventsList ({category} : {category: EventCategory}) {  
   const [eventList, setEventList] = useState<Event[]>([]);
+  const [dependencies, setDependencies] = useState(true);
+  const favourites = useFetchFavourite("event", dependencies);
   const serverUrl = 'http://localhost:3000/events';
 
   useEffect(() => {
@@ -28,6 +31,7 @@ function EventsList ({category} : {category: EventCategory}) {
       }
       setEventList(result);
     });
+    setDependencies((d) => !d);
   }, [category])
 
     return (
@@ -35,8 +39,8 @@ function EventsList ({category} : {category: EventCategory}) {
           <Title>Афиша</Title>
           <List>
             {eventList.length > 0 ? eventList.map((event) => 
-              <li key={event.id}>
-                <EventCard event={event}/>
+              <li key={`${category.city}-${category.type}-${event.id}`}>
+                <EventCard event={event} liked={favourites.includes(event.id)}/>
               </li>
           ) : null}
           </List>

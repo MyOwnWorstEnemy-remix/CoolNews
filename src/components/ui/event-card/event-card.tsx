@@ -10,16 +10,24 @@ import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addFav, removeFav } from "../../../store/fav-slice";
 
-function EventCard ({event} : {event: Event}) {
+function EventCard ({event, liked} : {event: Event, liked: boolean}) {
     const [isLiked, setIsLiked] = useState(false);
     const dispatch = useDispatch();
     const serverUrl = 'http://localhost:3000/favourite';
 
+    useEffect(() => {
+        if(liked) {
+          setIsLiked(true);
+        }
+      }, []);
+
     const handleLikeClick = async () => {
         if(!isLiked) {
             dispatch(addFav({data: event, type: "ADD_EVENT"}));
+            await fetch(serverUrl, {method: "POST", body: JSON.stringify({id: `event-${event.id}`})});
         } else {
             dispatch(removeFav({id: event.id, type: "event"}));
+            await fetch(`${serverUrl}/event-${event.id}`, {method: "DELETE"});
         }
         setIsLiked((like) => !like);
     }
