@@ -9,7 +9,7 @@ export function useFetchFavourite(type: "news" | "event" | "film", dependencies?
         fetch(favouritesUrl)
         .then((resp) => resp.json())
         .then((data) => {
-            const idList = data.filter((item: Favourite) => item.id.split('-')[0] === type).map((item: Favourite) => parseInt(item.id.split('-')[1]));
+            const idList = data.filter((item: Favourite) => item.id.split('-')[0] === type).map((item: Favourite) => item.id.split('-')[1]);
             console.log(idList);
             setFavourites(idList);
         });
