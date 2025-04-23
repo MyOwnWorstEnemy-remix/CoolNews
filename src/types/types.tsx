@@ -101,7 +101,7 @@ export type EventDescription = {
   }[],
 }
 
-type FilmType = "animated-series" | "tv-series" | "movie" | "cartoon";
+export type FilmType = "animated-series" | "tv-series" | "movie" | "cartoon";
 
 export type Film = {
   "id": number,
@@ -127,4 +127,16 @@ export type Film = {
     "name": string
   }[],
   "isSeries": boolean
+}
+
+export type MovieDescription = {
+  "filmType": {
+    "id": number,
+    "value": FilmType,
+    "text": string,
+  }[]
+}
+
+export type CurrentMovieCategory = {
+  "filmType": FilmType,
 }
