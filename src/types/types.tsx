@@ -139,4 +139,5 @@ export type MovieDescription = {
 
 export type CurrentMovieCategory = {
   "filmType": FilmType,
+  "rating": number[]
 }

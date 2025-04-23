@@ -1,6 +1,7 @@
 import { FilmType, MovieDescription, CurrentMovieCategory } from "../../../types/types";
 import { Section, Title } from "./styles";
 import { useEffect, useState } from "react";
+import useDebounce from "../../../custom-hooks/hooks";
 import CustomSelect from "../../ui/custom-select/custom-select";
 import CustomDoubleRange from "../../ui/custom-double-range/custom-double-range";
 
@@ -9,13 +10,20 @@ type SetCategory = (category: CurrentMovieCategory) => void;
 function MovieCategory ({categories, currentCategory, setCategory} : {categories: MovieDescription, currentCategory: CurrentMovieCategory, setCategory: SetCategory}) {
     const [typeSelect, setTypeSelect] = useState<FilmType>(currentCategory.filmType);
     const [ratingRange, setRatingRange] = useState<number[]>([0, 10]);
+    const debouncedRatingRange = useDebounce(ratingRange, 300);
 
-
+    useEffect(() => {
         const newCategory = {...currentCategory}      
-        newCategory.filmType = newType;
+        newCategory.filmType = typeSelect;
         setCategory(newCategory);
-        setTypeSelect(newType);
-    };
+    }, [typeSelect]);
+
+    useEffect(() => {
+        const newCategory = {...currentCategory}      
+        newCategory.rating = debouncedRatingRange;
+        console.log(newCategory);
+        setCategory(newCategory);
+    }, [debouncedRatingRange]);
 
     return <Section>
         <Title>Категории:</Title>
