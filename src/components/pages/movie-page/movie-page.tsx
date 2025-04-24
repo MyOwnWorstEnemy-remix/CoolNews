@@ -4,7 +4,7 @@ import Header from "../../../layout/header/header";
 import MovieCategory from "../../blocks/movie-category/movie-category";
 import MovieList from "../../blocks/movie-list/movie-list";
 import { Main } from "./styles";
-import { FilmType, MovieDescription, CurrentMovieCategory } from "../../../types/types";
+import { MovieDescription, CurrentMovieCategory } from "../../../types/types";
 
 const categories = {
   filmType: [
