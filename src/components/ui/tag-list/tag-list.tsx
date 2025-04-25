@@ -8,10 +8,17 @@ const styles = {
     color: '#10264c',
     width: '300px',
     border: 'none',
+    borderRadius: '12px',
+    overflowX: 'hidden',
     '& .MuiInputBase-root': {
         backgroundColor: '#fff',
         borderRadius: '12px',
         padding: '10px 15px',
+        maxHeight: '165px',
+        overflowY: 'auto',
+        scrollbarGutter: 'stable',
+        scrollbarWidth: 'thin',
+        scrollbarColor: '#10264c rgb(241, 244, 253)',
         '& fieldset': {
             borderColor: '#fff',
         },
@@ -21,7 +28,7 @@ const styles = {
         '&:focus fieldset': {
             borderColor: '#d8e4f8',
             outline: 'none',
-        }
+        },
     },
     '& .MuiChip-root': {
         backgroundColor: "#10264c",
@@ -33,6 +40,7 @@ const styles = {
     '& + .MuiAutocomplete-popper': {
         boxShadow: '0px 5px 5px -3px rgba(0,0,0,0.2)',
         color: '#3d5d96',
+        scrollbarColor: '#10264c rgb(241, 244, 253)',
     },
     '& + .MuiAutocomplete-popper .MuiAutocomplete-option': {
         fontSize: '1rem',
