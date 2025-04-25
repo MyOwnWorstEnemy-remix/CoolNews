@@ -73,6 +73,45 @@ const genres = [
     {
         title: "игра",
     },
+];
+
+const countries = [
+    {
+        title: "Канада",
+    },
+    {
+        title: "США",
+    },
+    {
+        title: "Ирландия",
+    },
+    {
+        title: "Россия",
+    },
+    {
+        title: "Аргентина",
+    },
+    {
+        title: "Франция",
+    },
+    {
+        title: "Бельгия",
+    },
+    {
+        title: "Великобритания",
+    },
+    {
+        title: "Австралия",
+    },
+    {
+        title: "Индия",
+    },
+    {
+        title: "Италия",
+    },
+    {
+        title: "Германия",
+    },
 ]
 
 function MovieCategory ({categories, currentCategory, setCategory} : {categories: MovieDescription, currentCategory: CurrentMovieCategory, setCategory: SetCategory}) {
@@ -80,7 +119,9 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
     const [ratingRange, setRatingRange] = useState<number[]>([0, 10]);
     const debouncedRatingRange = useDebounce(ratingRange, 300);
     const [selectedGenres, setSelectedGenres] = useState<{title: string}[]>([]);
-    const [allGenres, setAllGenres] = useState<boolean>(true);  
+    const [allGenres, setAllGenres] = useState<boolean>(true);
+    const [selectedCountries, setSelectedCountries] = useState<{title: string}[]>([]);
+    const [allCountries, setAllCountries] = useState<boolean>(true); 
 
     useEffect(() => {
         const newCategory = {...currentCategory}      
@@ -108,6 +149,11 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
             <h3>Жанры:</h3>
             <TagList optionsList={genres} setSelectedTags={setSelectedGenres}/>
             <CustomSwitch checked={allGenres} setChecked={setAllGenres} labelText="Все выбранные жанры присутствуют одновременно" />
+        </CategoryWrapper>
+        <CategoryWrapper>
+            <h3>Страны:</h3>
+            <TagList optionsList={countries} setSelectedTags={setSelectedCountries}/>
+            <CustomSwitch checked={allCountries} setChecked={setAllCountries} labelText="Все выбранные страны присутствуют одновременно" />
         </CategoryWrapper>
     </Section>
 }
