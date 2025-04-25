@@ -124,16 +124,32 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
     const [allCountries, setAllCountries] = useState<boolean>(true); 
 
     useEffect(() => {
-        const newCategory = {...currentCategory}      
+        const newCategory = {...currentCategory};      
         newCategory.filmType = typeSelect;
         setCategory(newCategory);
     }, [typeSelect]);
 
     useEffect(() => {
-        const newCategory = {...currentCategory}      
+        const newCategory = {...currentCategory};      
         newCategory.rating = debouncedRatingRange;
         setCategory(newCategory);
     }, [debouncedRatingRange]);
+
+    useEffect(() => {
+        const newCategory = {...currentCategory};      
+        newCategory.genres.all = allGenres;
+        const list = selectedGenres.map((value) => value.title);
+        newCategory.genres.list = list;
+        setCategory(newCategory);
+    }, [selectedGenres, allGenres]);
+
+    useEffect(() => {
+        const newCategory = {...currentCategory};      
+        newCategory.countries.all = allCountries;
+        const list = selectedCountries.map((value) => value.title);
+        newCategory.countries.list = list;
+        setCategory(newCategory);
+    }, [selectedCountries, allCountries]);
 
     return <Section>
         <Title>Категории:</Title>

@@ -139,5 +139,13 @@ export type MovieDescription = {
 
 export type CurrentMovieCategory = {
   "filmType": FilmType,
-  "rating": number[]
+  "rating": number[],
+  "genres": {
+    "list": string[],
+    "all": boolean,
+  },
+  "countries": {
+    "list": string[],
+    "all": boolean,
+  }
 }

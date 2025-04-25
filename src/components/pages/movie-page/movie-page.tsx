@@ -32,7 +32,7 @@ const categories = {
 } as MovieDescription;
 
 function MoviePage() {
-  const [currentCategory, setCurrentCategoties] = useState<CurrentMovieCategory>({filmType: "animated-series", rating: [0, 10]});
+  const [currentCategory, setCurrentCategoties] = useState<CurrentMovieCategory>({filmType: "animated-series", rating: [0, 10], genres: {"list": [], all: true}, countries: {"list": [], all: true}});
 
   return (
     <>
