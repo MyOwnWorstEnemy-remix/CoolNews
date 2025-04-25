@@ -33,10 +33,10 @@ const SelectProps = {
             },
             "& li.Mui-selected": {
             color: "white",
-            background: "#3d5d96",
+            background: "#10264c",
             },
             "& li.Mui-selected:hover": {
-            background: "#3d5d96",
+            background: "#10264c",
             },
         },
     },

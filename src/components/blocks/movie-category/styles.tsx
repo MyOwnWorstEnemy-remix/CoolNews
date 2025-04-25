@@ -18,3 +18,17 @@ export const Title = styled.h2`
     margin: 0;
     margin-bottom: 20px;
 `
+
+export const CategoryWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    &:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+`

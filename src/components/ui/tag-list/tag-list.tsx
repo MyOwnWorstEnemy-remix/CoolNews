@@ -24,7 +24,7 @@ const styles = {
         }
     },
     '& .MuiChip-root': {
-        backgroundColor: "#3d5d96",
+        backgroundColor: "#10264c",
         color: '#fff',
         '& .MuiChip-deleteIcon': {
             color: '#fff',
