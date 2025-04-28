@@ -101,7 +101,7 @@ export type EventDescription = {
   }[],
 }
 
-export type FilmType = "animated-series" | "tv-series" | "movie" | "cartoon";
+export type FilmType = "animated-series" | "tv-series" | "movie" | "cartoon" | "all";
 
 export type Film = {
   "id": number,

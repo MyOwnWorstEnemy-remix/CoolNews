@@ -133,7 +133,6 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
         newCategory.countries.all = allCountries;
         const countriesList = selectedCountries.map((value) => value.title);
         newCategory.countries.list = countriesList;
-        console.log(newCategory);
         setCategory(newCategory);
     };
 

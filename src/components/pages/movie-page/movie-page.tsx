@@ -10,21 +10,26 @@ const categories = {
   filmType: [
     {
       "id": 0,
+      "value": "all",
+      "text": "Показать все",
+    },
+    {
+      "id": 1,
       "value": "animated-series",
       "text": "Мультипликационный сериал",
     },
     {
-      "id": 1,
+      "id": 2,
       "value": "tv-series",
       "text": "Сериал",
     },
     {
-      "id": 2,
+      "id": 3,
       "value": "movie",
       "text": "Фильм",
     },
     {
-      "id": 3,
+      "id": 4,
       "value": "cartoon",
       "text": "Мультифильм",
     }
@@ -32,14 +37,14 @@ const categories = {
 } as MovieDescription;
 
 function MoviePage() {
-  const [currentCategory, setCurrentCategoties] = useState<CurrentMovieCategory>({filmType: "animated-series", rating: [0, 10], genres: {"list": [], all: true}, countries: {"list": [], all: true}});
+  const [currentCategory, setCurrentCategoties] = useState<CurrentMovieCategory>({filmType: "all", rating: [0, 10], genres: {"list": [], all: true}, countries: {"list": [], all: true}});
 
   return (
     <>
       <Header />
       <Main>
         <MovieCategory categories={categories} currentCategory={currentCategory} setCategory={setCurrentCategoties} />
-        <MovieList />
+        <MovieList currentCategory={currentCategory} />
       </Main>
       <Footer />
     </>
