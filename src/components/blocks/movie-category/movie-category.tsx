@@ -1,6 +1,6 @@
 import { FilmType, MovieDescription, CurrentMovieCategory } from "../../../types/types";
-import { Section, Title, CategoryWrapper } from "./styles";
-import { useEffect, useState } from "react";
+import { Section, Title, CategoryWrapper, Button } from "./styles";
+import { useState } from "react";
 import useDebounce from "../../../custom-hooks/hooks";
 import CustomSelect from "../../ui/custom-select/custom-select";
 import CustomDoubleRange from "../../ui/custom-double-range/custom-double-range";
@@ -123,33 +123,19 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
     const [selectedCountries, setSelectedCountries] = useState<{title: string}[]>([]);
     const [allCountries, setAllCountries] = useState<boolean>(true); 
 
-    useEffect(() => {
-        const newCategory = {...currentCategory};      
+    const handleButtonClick = () => {
+        const newCategory = {...currentCategory};
         newCategory.filmType = typeSelect;
-        setCategory(newCategory);
-    }, [typeSelect]);
-
-    useEffect(() => {
-        const newCategory = {...currentCategory};      
         newCategory.rating = debouncedRatingRange;
-        setCategory(newCategory);
-    }, [debouncedRatingRange]);
-
-    useEffect(() => {
-        const newCategory = {...currentCategory};      
         newCategory.genres.all = allGenres;
-        const list = selectedGenres.map((value) => value.title);
-        newCategory.genres.list = list;
-        setCategory(newCategory);
-    }, [selectedGenres, allGenres]);
-
-    useEffect(() => {
-        const newCategory = {...currentCategory};      
+        const genresList = selectedGenres.map((value) => value.title);
+        newCategory.genres.list = genresList;
         newCategory.countries.all = allCountries;
-        const list = selectedCountries.map((value) => value.title);
-        newCategory.countries.list = list;
+        const countriesList = selectedCountries.map((value) => value.title);
+        newCategory.countries.list = countriesList;
+        console.log(newCategory);
         setCategory(newCategory);
-    }, [selectedCountries, allCountries]);
+    };
 
     return <Section>
         <Title>Категории:</Title>
@@ -171,6 +157,7 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
             <TagList optionsList={countries} setSelectedTags={setSelectedCountries}/>
             <CustomSwitch checked={allCountries} setChecked={setAllCountries} labelText="Все выбранные страны присутствуют одновременно" />
         </CategoryWrapper>
+        <Button type="button" onClick={handleButtonClick}>Найти</Button>
     </Section>
 }
 

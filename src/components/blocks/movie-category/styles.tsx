@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.div`
     position: sticky;
     top: 50px;
-    max-height: calc(100vw - 100px);
+    max-height: calc(100vh - 150px);
     scrollbar-gutter: stable;
     scrollbar-width: thin;
     scrollbar-color: #10264c rgb(241, 244, 253);
@@ -37,4 +37,17 @@ export const CategoryWrapper = styled.div`
     h3 {
         margin: 0;
     }
+`
+
+export const Button = styled.button`
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    background-color: #10264c;
+    border: none;
+    border-radius: 12px;
+    padding: 17px 30px;
+    cursor: pointer;
+    margin-top: 20px;
 `
