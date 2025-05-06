@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useFetchFavourite } from "../../../custom-hooks/hooks";
-import { Section, List, Title } from "./styles";
+import { Section, List } from "./styles";
 import { Film, CurrentMovieCategory } from "../../../types/types";
 import MovieCard from "../../ui/movie-card/movie-card";
 
@@ -59,7 +59,6 @@ function MovieList({currentCategory} : {currentCategory: CurrentMovieCategory}) 
 
     return (
         <Section>
-            <Title>Фильмы</Title>
             <List>
                 {movies.length > 0 ? movies.map((movie) => 
                     <li key={movie.id}>

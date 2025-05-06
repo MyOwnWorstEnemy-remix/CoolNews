@@ -8,3 +8,25 @@ export const Main = styled.main`
     display: flex;
     gap: 100px;
 `
+
+export const Title = styled.h1`
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+`
+
+export const Control = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    p {
+        margin: 0;
+        padding: 5px 0;
+    }
+
+    div {
+        display: flex;
+    }
+`

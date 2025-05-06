@@ -12,10 +12,3 @@ export const List = styled.ul`
     flex-direction: column;
     gap: 25px;
 `
-
-export const Title = styled.h1`
-    font-size: 32px;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 30px;
-`
