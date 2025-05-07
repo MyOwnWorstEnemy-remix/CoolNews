@@ -2,9 +2,9 @@ import FormControl from "@mui/material/FormControl";
 import { menuClasses } from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Select, { selectClasses, SelectChangeEvent } from "@mui/material/Select";
-import { MovieDescription, FilmType } from "../../../types/types";
+import { SelectDescription } from "../../../types/types";
 
-type setFilmType = (type: FilmType) => void; 
+type setFilmType = (type: string) => void; 
 
 const SelectProps = {
     anchorOrigin: {
@@ -27,6 +27,11 @@ const SelectProps = {
             "& li": {
             paddingTop: "12px",
             paddingBottom: "12px",
+            display: "flex",
+            justifyContent: "space-between",
+            },
+            "& li p": {
+            margin: "0px",
             },
             "& li:hover": {
             background: "#d8e4f8",
@@ -42,14 +47,18 @@ const SelectProps = {
     },
 }
 
-function CustomSelect ({categories, typeSelect, setTypeSelect} : {
-    categories: MovieDescription,  
-    typeSelect: FilmType, 
-    setTypeSelect: setFilmType}) {
+function CustomSelect ({list, value, setValue, minWidth, selectWidth, backgroundColor, displayIcon = false} : {
+    list: SelectDescription[],  
+    value: string, 
+    setValue: setFilmType,
+    backgroundColor?: string,
+    selectWidth?: number,
+    minWidth: number, 
+    displayIcon?: boolean}) {
 
-    const handleTypeChange = (evt: SelectChangeEvent<FilmType>) => {
-        const newType = evt.target.value as FilmType;  
-        setTypeSelect(newType);
+    const handleTypeChange = (evt: SelectChangeEvent<string>) => {
+        const newType = evt.target.value;
+        setValue(newType);
     };
 
     return (
@@ -58,32 +67,42 @@ function CustomSelect ({categories, typeSelect, setTypeSelect} : {
                 disableUnderline
                 variant="standard"
                 MenuProps={SelectProps} 
-                value={typeSelect}
+                value={value}
                 onChange={handleTypeChange}
                 sx={{
-                    minWidth: 300,
+                    minWidth: minWidth,
                     [`& .${selectClasses.select}`]: {
-                        background: "white",
+                        minWidth: selectWidth ? selectWidth : `calc(${minWidth} - 30px)`,
+                        background: backgroundColor ? backgroundColor : "transparent",
                         color: "#10264c",
                         borderRadius: "12px",
                         paddingLeft: "15px",
                         paddingRight: "24px",
                         paddingTop: "15px",
                         paddingBottom: "15px",
+                        display: "flex",
+                        alignItems: "center",
                         "&:focus": {
                             borderRadius: "12px",
-                            background: "white",
+                            background: backgroundColor ? backgroundColor : "transparent",
                             borderColor: "#104a9d",
                         },
                     },
+                    [`& .${selectClasses.select} p`]: {
+                        display: displayIcon ? "none" : "inline",
+                        padding: 0,
+                        margin: 0,
+                    },
                     [`& .${selectClasses.icon}`]: {
+                        display: displayIcon ? "none" : "block",
                         right: "12px",
                     },
                   }}
                 >
-                {categories.filmType.map((category) => (
-                    <MenuItem key={category.id} value={category.value}>
-                        {category.text}
+                {list.map((item) => (
+                    <MenuItem key={item.id} value={item.value}>
+                        <p>{item.text}</p>
+                        {item.icon ? <item.icon /> : null}
                     </MenuItem>
                 ))}
             </Select>

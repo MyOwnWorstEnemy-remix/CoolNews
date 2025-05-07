@@ -1,3 +1,5 @@
+import { IconType } from "react-icons/lib";
+
 export type Favourite = {
   "id": string, 
 }
@@ -129,16 +131,15 @@ export type Film = {
   "isSeries": boolean
 }
 
-export type MovieDescription = {
-  "filmType": {
-    "id": number,
-    "value": FilmType,
-    "text": string,
-  }[]
+export type SelectDescription = {
+  "id": number,
+  "value": string,
+  "text": string,
+  icon?: IconType,
 }
 
 export type CurrentMovieCategory = {
-  "filmType": FilmType,
+  "filmType": string,
   "rating": number[],
   "genres": {
     "list": string[],

@@ -23,7 +23,7 @@ export const Control = styled.div`
 
     p {
         margin: 0;
-        padding: 5px 0;
+        padding: 15px 0;
     }
 
     div {

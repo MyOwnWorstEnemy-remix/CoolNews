@@ -3,41 +3,39 @@ import Footer from "../../../layout/footer/footer";
 import Header from "../../../layout/header/header";
 import MovieCategory from "../../blocks/movie-category/movie-category";
 import MovieList from "../../blocks/movie-list/movie-list";
-import CustomSmallSelect from "../../ui/custom-small-select/custom-small-select";
+import CustomSelect from "../../ui/custom-select/custom-select";
 import { Main, Title, Control } from "./styles";
-import { MovieDescription, CurrentMovieCategory } from "../../../types/types";
+import { SelectDescription, CurrentMovieCategory } from "../../../types/types";
 import { MdFilterListOff } from "react-icons/md";
 import { LuArrowUpWideNarrow, LuArrowDownWideNarrow, LuArrowDownAZ, LuCalendarArrowDown } from "react-icons/lu";
 
-const categories = {
-  filmType: [
-    {
-      "id": 0,
-      "value": "all",
-      "text": "Показать все",
-    },
-    {
-      "id": 1,
-      "value": "animated-series",
-      "text": "Мультипликационный сериал",
-    },
-    {
-      "id": 2,
-      "value": "tv-series",
-      "text": "Сериал",
-    },
-    {
-      "id": 3,
-      "value": "movie",
-      "text": "Фильм",
-    },
-    {
-      "id": 4,
-      "value": "cartoon",
-      "text": "Мультифильм",
-    }
-  ]
-} as MovieDescription;
+const selectList = [
+  {
+    "id": 0,
+    "value": "all",
+    "text": "Показать все",
+  },
+  {
+    "id": 1,
+    "value": "animated-series",
+    "text": "Мультипликационный сериал",
+  },
+  {
+    "id": 2,
+    "value": "tv-series",
+    "text": "Сериал",
+  },
+  {
+    "id": 3,
+    "value": "movie",
+    "text": "Фильм",
+  },
+  {
+    "id": 4,
+    "value": "cartoon",
+    "text": "Мультифильм",
+  }
+] as SelectDescription[];
 
 const sortingList = [
   {
@@ -70,7 +68,7 @@ const sortingList = [
     "text": "Новизне",
     "icon": LuCalendarArrowDown,
   },
-];
+] as SelectDescription[];
 
 const elementsOnPageList = [
   {
@@ -88,7 +86,7 @@ const elementsOnPageList = [
     "value": "50",
     "text": "50",
   },
-];
+] as SelectDescription[];
 
 function MoviePage() {
   const [currentCategory, setCurrentCategoties] = useState<CurrentMovieCategory>({filmType: "all", rating: [0, 10], genres: {"list": [], all: true}, countries: {"list": [], all: true}});
@@ -99,20 +97,20 @@ function MoviePage() {
     <>
       <Header />
       <Main>
-        <MovieCategory categories={categories} currentCategory={currentCategory} setCategory={setCurrentCategoties} />
+        <MovieCategory selectList={selectList} currentCategory={currentCategory} setCategory={setCurrentCategoties} />
         <div>
           <Title>Фильмы</Title>
           <Control>
             <div>
               <p>Сортировать:</p>
-              <CustomSmallSelect list={sortingList} value={sort} setValue={setSort} minWidth={250} displayIcon={true}/>
+              <CustomSelect list={sortingList} value={sort} setValue={setSort} minWidth={250} displayIcon={true}/>
             </div>
             <div>
               <p>Элементов на странице:</p>
-              <CustomSmallSelect list={elementsOnPageList} value={elementsOnPage} setValue={setElementsOnPage} minWidth={50}/>
+              <CustomSelect list={elementsOnPageList} value={elementsOnPage} setValue={setElementsOnPage} minWidth={80}/>
             </div>
           </Control>
-          <MovieList currentCategory={currentCategory} />
+          <MovieList currentCategory={currentCategory} sortingType={sort}/>
         </div>
       </Main>
       <Footer />

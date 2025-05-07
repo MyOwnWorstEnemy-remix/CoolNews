@@ -4,7 +4,7 @@ import { Section, List } from "./styles";
 import { Film, CurrentMovieCategory } from "../../../types/types";
 import MovieCard from "../../ui/movie-card/movie-card";
 
-function MovieList({currentCategory} : {currentCategory: CurrentMovieCategory}) {
+function MovieList({currentCategory, sortingType} : {currentCategory: CurrentMovieCategory, sortingType: string}) {
     const [movies, setMovies] = useState<Film[]>([]);
     const favourites = useFetchFavourite("film");
     const filmsUrl = 'http://localhost:3000/films';

@@ -1,4 +1,4 @@
-import { FilmType, MovieDescription, CurrentMovieCategory } from "../../../types/types";
+import { SelectDescription, CurrentMovieCategory } from "../../../types/types";
 import { Section, Title, CategoryWrapper, Button } from "./styles";
 import { useState } from "react";
 import useDebounce from "../../../custom-hooks/hooks";
@@ -114,8 +114,8 @@ const countries = [
     },
 ]
 
-function MovieCategory ({categories, currentCategory, setCategory} : {categories: MovieDescription, currentCategory: CurrentMovieCategory, setCategory: SetCategory}) {
-    const [typeSelect, setTypeSelect] = useState<FilmType>(currentCategory.filmType);
+function MovieCategory ({selectList, currentCategory, setCategory} : {selectList: SelectDescription[], currentCategory: CurrentMovieCategory, setCategory: SetCategory}) {
+    const [typeSelect, setTypeSelect] = useState<string>(currentCategory.filmType);
     const [ratingRange, setRatingRange] = useState<number[]>([0, 10]);
     const debouncedRatingRange = useDebounce(ratingRange, 300);
     const [selectedGenres, setSelectedGenres] = useState<{title: string}[]>([]);
@@ -140,7 +140,7 @@ function MovieCategory ({categories, currentCategory, setCategory} : {categories
         <Title>Категории:</Title>
         <CategoryWrapper>
             <h3>Тип:</h3>
-            <CustomSelect categories={categories} typeSelect={typeSelect} setTypeSelect={setTypeSelect}/>
+            <CustomSelect list={selectList} value={typeSelect} setValue={setTypeSelect} minWidth={300} backgroundColor={"white"}/>
         </CategoryWrapper>
         <CategoryWrapper>
             <h3>Рейтинг IMDB:</h3>
