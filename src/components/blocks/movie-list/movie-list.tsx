@@ -37,25 +37,58 @@ function MovieList({currentCategory, sortingType} : {currentCategory: CurrentMov
         return newData;
     }
 
+    const filterList = (filmData: Film[]) => {
+        if (currentCategory.filmType !== 'all') {
+            filmData = filmData.filter((item: Film) => item.type == currentCategory.filmType);
+        }
+        filmData = filmData.filter((item: Film) => (item.rating.imdb >= currentCategory.rating[0] && item.rating.imdb <= currentCategory.rating[1]));
+        if (currentCategory.genres.list.length >= 1) {
+            filmData = filterTags(filmData, 'genres');
+        }
+        if (currentCategory.countries.list.length >= 1) {
+            filmData = filterTags(filmData, 'countries');
+        }
+        return filmData;
+    }
+    
+    const sortList = (sort: string, data: Film[]) => {
+        let sortedList: Film[] = [];
+        switch(sort) {                
+            case "rating-down": 
+                sortedList = data.sort((first, second) => second.rating.imdb - first.rating.imdb);
+                break;
+            case "rating-up": 
+                sortedList = data.sort((first, second) => first.rating.imdb - second.rating.imdb);
+                break;
+            case "alphabet": 
+                sortedList = data.sort((first, second) => {
+                    if (first.name[0] > second.name[0]) {
+                        return 1;
+                    } else if (first.name[0] < second.name[0]) {
+                        return -1;
+                    }
+                    return 0;
+                });
+                break;
+            case "date": 
+                sortedList = data.sort((first, second) => second.year - first.year);
+                break;
+            default: 
+                sortedList = data;
+                break;
+        }
+        return sortedList;
+    }
+
     useEffect(() => {
         fetch(filmsUrl)
         .then((resp) => resp.json())
         .then((data) => {
-            let filmData = data;
-            if (currentCategory.filmType !== 'all') {
-                filmData = data.filter((item: Film) => item.type == currentCategory.filmType);
-            }
-            filmData = filmData.filter((item: Film) => (item.rating.imdb >= currentCategory.rating[0] && item.rating.imdb <= currentCategory.rating[1]));
-            if (currentCategory.genres.list.length >= 1) {
-                filmData = filterTags(filmData, 'genres');
-            }
-            if (currentCategory.countries.list.length >= 1) {
-                filmData = filterTags(filmData, 'countries');
-            }
-            console.log(filmData);
-            setMovies(filmData);
+            const filmData = filterList(data);
+            const sortedFilmData = sortList(sortingType, filmData);
+            setMovies(sortedFilmData);
         });
-    }, [currentCategory])
+    }, [currentCategory, sortingType]);
 
     return (
         <Section>
