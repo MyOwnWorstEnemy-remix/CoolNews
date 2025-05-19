@@ -2,13 +2,6 @@ import styled from "styled-components";
 
 export const Section = styled.div`
     position: sticky;
-    top: 50px;
-    max-height: calc(100vh - 150px);
-    scrollbar-gutter: stable;
-    scrollbar-width: thin;
-    scrollbar-color: #10264c rgb(241, 244, 253);
-    overflow-y: auto;
-    overflow-x: hidden;
     background-color: #dee7ee;
     padding: 30px 40px;
     min-width: 300px;

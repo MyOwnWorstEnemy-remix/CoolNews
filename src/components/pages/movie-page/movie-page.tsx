@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Footer from "../../../layout/footer/footer";
 import Header from "../../../layout/header/header";
 import MovieCategory from "../../blocks/movie-category/movie-category";
@@ -92,12 +92,37 @@ function MoviePage() {
   const [currentCategory, setCurrentCategoties] = useState<CurrentMovieCategory>({filmType: "all", rating: [0, 10], genres: {"list": [], all: true}, countries: {"list": [], all: true}});
   const [sort, setSort] = useState<string>("none");
   const [elementsOnPage, setElementsOnPage] = useState<string>("10");
+  const prevScroll = useRef(0);
+  const sidebarRef = useRef<HTMLDivElement | null>(null);
+
+  const onWindowScroll = () => {
+    if (sidebarRef.current && (
+      (+sidebarRef.current.style.top.slice(0, -2) > window.innerHeight - sidebarRef.current.offsetHeight - 50 && +sidebarRef.current.style.top.slice(0, -2) < 50) 
+      || (+sidebarRef.current.style.top.slice(0, -2) === window.innerHeight - sidebarRef.current.offsetHeight - 50 && window.scrollY < prevScroll.current) 
+      || (+sidebarRef.current.style.top.slice(0, -2) === 50 && window.scrollY > prevScroll.current))) {
+      sidebarRef.current.style.top = `${+sidebarRef.current.style.top.slice(0, -2) - window.scrollY + prevScroll.current}px`;
+    } else if (sidebarRef.current && +sidebarRef.current.style.top.slice(0, -2) < window.innerHeight - sidebarRef.current.offsetHeight - 50) {
+      sidebarRef.current.style.top = `${window.innerHeight - sidebarRef.current.offsetHeight - 50}px`;
+    } else if (sidebarRef.current && (+sidebarRef.current.style.top.slice(0, -2) < window.innerHeight - sidebarRef.current.offsetHeight - 50 || +sidebarRef.current.style.top.slice(0, -2) > 50)) {
+      sidebarRef.current.style.top = '50px';
+    }
+    prevScroll.current = window.scrollY;
+  }
+
+  useEffect(() => {
+    if(sidebarRef.current && sidebarRef.current.offsetHeight > window.innerHeight - 50) {
+      window.addEventListener('scroll', onWindowScroll);
+    } else if (sidebarRef.current) {
+      sidebarRef.current.style.top = '50px';
+    }
+    return () => window.removeEventListener('scroll', onWindowScroll);
+  }, [currentCategory])
 
   return (
     <>
       <Header />
       <Main>
-        <MovieCategory selectList={selectList} currentCategory={currentCategory} setCategory={setCurrentCategoties} />
+        <MovieCategory selectList={selectList} currentCategory={currentCategory} setCategory={setCurrentCategoties} ref={sidebarRef} />
         <div>
           <Title>Фильмы</Title>
           <Control>

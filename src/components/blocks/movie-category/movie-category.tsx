@@ -1,6 +1,6 @@
 import { SelectDescription, CurrentMovieCategory } from "../../../types/types";
 import { Section, Title, CategoryWrapper, Button } from "./styles";
-import { useState } from "react";
+import { useState, RefObject } from "react";
 import useDebounce from "../../../custom-hooks/hooks";
 import CustomSelect from "../../ui/custom-select/custom-select";
 import CustomDoubleRange from "../../ui/custom-double-range/custom-double-range";
@@ -114,7 +114,12 @@ const countries = [
     },
 ]
 
-function MovieCategory ({selectList, currentCategory, setCategory} : {selectList: SelectDescription[], currentCategory: CurrentMovieCategory, setCategory: SetCategory}) {
+function MovieCategory ({selectList, currentCategory, setCategory, ref} : {
+        selectList: SelectDescription[], 
+        currentCategory: CurrentMovieCategory, 
+        setCategory: SetCategory, 
+        ref?: RefObject<HTMLDivElement | null>, 
+    }) {
     const [typeSelect, setTypeSelect] = useState<string>(currentCategory.filmType);
     const [ratingRange, setRatingRange] = useState<number[]>([0, 10]);
     const debouncedRatingRange = useDebounce(ratingRange, 300);
@@ -136,8 +141,8 @@ function MovieCategory ({selectList, currentCategory, setCategory} : {selectList
         setCategory(newCategory);
     };
 
-    return <Section>
-        <Title>Категории:</Title>
+    return <Section ref={ref}>
+        <Title>Категории:</Title> 
         <CategoryWrapper>
             <h3>Тип:</h3>
             <CustomSelect list={selectList} value={typeSelect} setValue={setTypeSelect} minWidth={300} backgroundColor={"white"}/>
