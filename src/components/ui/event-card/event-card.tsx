@@ -13,7 +13,7 @@ import { addFav, removeFav } from "../../../store/fav-slice";
 function EventCard ({event, liked} : {event: Event, liked: boolean}) {
     const [isLiked, setIsLiked] = useState(false);
     const dispatch = useDispatch();
-    const serverUrl = 'http://localhost:3000/favourite';
+    const serverUrl = 'https://json-server-cool-news.vercel.app/favourite';
 
     useEffect(() => {
         if(liked) {

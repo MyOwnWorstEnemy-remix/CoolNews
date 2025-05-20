@@ -13,7 +13,7 @@ function EventsSection ({category} : {category: EventCategory}) {
   const [eventList, setEventList] = useState<Event[]>([]);
   const [dependencies, setDependencies] = useState(true);
   const favourites = useFetchFavourite("event", dependencies);
-  const serverUrl = 'http://localhost:3000/events';
+  const serverUrl = 'https://json-server-cool-news.vercel.app/events';
 
   useEffect(() => {
     fetch(`${serverUrl}/${category.city}`)

@@ -8,7 +8,7 @@ import { Section, Title } from "./styles";
 function NewsSection({categoryList}: {categoryList: Category[]}) {
   const [articles, setArticles] = useState<Article[]>([]);
   const favourites = useFetchFavourite("news");
-  const serverUrl = 'http://localhost:3000/articles';
+  const serverUrl = 'https://json-server-cool-news.vercel.app/articles';
 
   const sortData = (data: Article[]): Article[] => {
     const sortedData = data.sort((info1, info2) => {

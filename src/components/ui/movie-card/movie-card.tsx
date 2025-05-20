@@ -8,7 +8,7 @@ import Like from "../like/like";
 function MovieCard({movie, liked}: {movie: Film, liked: boolean}) {
     const [isLiked, setIsLiked] = useState(false);
     const dispatch = useDispatch();
-    const serverUrl = 'http://localhost:3000/favourite';
+    const serverUrl = 'https://json-server-cool-news.vercel.app/favourite';
 
     useEffect(() => {
         if(liked) {

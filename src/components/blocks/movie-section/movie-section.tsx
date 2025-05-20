@@ -7,7 +7,7 @@ import List from "../../ui/list/list";
 function MovieSection({currentCategory, sortingType} : {currentCategory: CurrentMovieCategory, sortingType?: string}) {
     const [movies, setMovies] = useState<Film[]>([]);
     const favourites = useFetchFavourite("film");
-    const filmsUrl = 'http://localhost:3000/films';
+    const filmsUrl = 'https://json-server-cool-news.vercel.app/films';
 
     const filterTags = (filmData: Film[], tag: 'genres' | 'countries') => {
         let newData;
