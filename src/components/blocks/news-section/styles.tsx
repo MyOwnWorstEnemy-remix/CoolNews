@@ -11,12 +11,3 @@ export const Title = styled.h2`
     margin: 0;
     margin-bottom: 30px;
 `
-
-export const List = styled.ul`
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-`

@@ -5,15 +5,15 @@ import Checkbox from "../../ui/checkbox/checkbox";
 
 type SetCategory = (category: Category[]) => void;
 
-function NewsCategory ({categories, categoryList, setCategoryList} : {categories: CategoryList[], categoryList: Category[], setCategoryList: SetCategory}) {
+function NewsCategory ({categories, categoryList, setCategory} : {categories: CategoryList[], categoryList: Category[], setCategory: SetCategory}) {
     const handleCheckboxChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
         const checkboxValue = evt.target.value as Category;
         if (categoryList.includes(checkboxValue)) {
             const newList = categoryList.filter((cat) => cat !== checkboxValue) as Category[];
-            setCategoryList(newList);
+            setCategory(newList);
         } else {
             const newList = [...categoryList, checkboxValue] as Category[];
-            setCategoryList(newList);
+            setCategory(newList);
         }
     };
     return <Selector>

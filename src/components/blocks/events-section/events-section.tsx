@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { useFetchFavourite } from "../../../custom-hooks/hooks";
-import { Section, Title, List } from "./styles";
+import { Section, Title } from "./styles";
 import { Event, EventCategory } from "../../../types/types";
-import EventCard from "../../ui/event-card/event-card";
+import List from "../../ui/list/list";
 
 type Item = {
   "id": string,
   "list": Event[]
 }
 
-function EventsList ({category} : {category: EventCategory}) {  
+function EventsSection ({category} : {category: EventCategory}) {  
   const [eventList, setEventList] = useState<Event[]>([]);
   const [dependencies, setDependencies] = useState(true);
   const favourites = useFetchFavourite("event", dependencies);
@@ -20,6 +20,14 @@ function EventsList ({category} : {category: EventCategory}) {
     .then((resp) => resp.json())
     .then((data) => {
       let events = data.list.filter((item: Item) => item.id === category.type)[0].list;
+      for (let i = 0; i < events.length; i++) {
+        if (events[i].list) {
+          events[i] = {id: events[i].id, list: events[i].list.map((item: Event) => {return {...item, entityType: 'event'}})};
+        } else {
+          console.log(events[i]);
+          events[i] = {...events[i], entityType: 'event'};
+        }
+      }
       const result = [] as Event[];
       if (category.subtype && category.type === 'food') {
         category.subtype?.forEach((subt) => {
@@ -37,15 +45,9 @@ function EventsList ({category} : {category: EventCategory}) {
     return (
         <Section>
           <Title>Афиша</Title>
-          <List>
-            {eventList.length > 0 ? eventList.map((event) => 
-              <li key={`${category.city}-${category.type}-${event.id}`}>
-                <EventCard event={event} liked={favourites.includes(event.id)}/>
-              </li>
-          ) : null}
-          </List>
+          <List itemList={eventList} favourites={favourites} cardWidth={350} />
         </Section>
       );
 }
 
-export default EventsList;
+export default EventsSection;

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useFetchFavourite } from "../../../custom-hooks/hooks";
-import { Section, List } from "./styles";
+import { Section } from "./styles";
 import { Film, CurrentMovieCategory } from "../../../types/types";
-import MovieCard from "../../ui/movie-card/movie-card";
+import List from "../../ui/list/list";
 
-function MovieList({currentCategory, sortingType} : {currentCategory: CurrentMovieCategory, sortingType: string}) {
+function MovieSection({currentCategory, sortingType} : {currentCategory: CurrentMovieCategory, sortingType?: string}) {
     const [movies, setMovies] = useState<Film[]>([]);
     const favourites = useFetchFavourite("film");
     const filmsUrl = 'http://localhost:3000/films';
@@ -84,23 +84,20 @@ function MovieList({currentCategory, sortingType} : {currentCategory: CurrentMov
         fetch(filmsUrl)
         .then((resp) => resp.json())
         .then((data) => {
-            const filmData = filterList(data);
-            const sortedFilmData = sortList(sortingType, filmData);
-            setMovies(sortedFilmData);
+            let filmData = filterList(data);
+            filmData = filmData.map((item: Film) => {return {...item, entityType: 'film'}});
+            if (sortingType) {
+                filmData = sortList(sortingType, filmData);
+            }
+            setMovies(filmData);
         });
     }, [currentCategory, sortingType]);
 
     return (
         <Section>
-            <List>
-                {movies.length > 0 ? movies.map((movie) => 
-                    <li key={movie.id}>
-                        <MovieCard movie={movie} liked={favourites.includes(movie.id)}/>
-                    </li>
-                ) : <p>Извините, по вашему запросу ничего не найдено</p>}
-            </List>
+            <List itemList={movies} favourites={favourites} />
         </Section>
       );
 }
 
-export default MovieList;
+export default MovieSection;

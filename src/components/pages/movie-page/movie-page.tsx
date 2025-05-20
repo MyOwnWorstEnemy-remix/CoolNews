@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import Footer from "../../../layout/footer/footer";
 import Header from "../../../layout/header/header";
 import MovieCategory from "../../blocks/movie-category/movie-category";
-import MovieList from "../../blocks/movie-list/movie-list";
+import MovieSection from "../../blocks/movie-section/movie-section";
 import CustomSelect from "../../ui/custom-select/custom-select";
 import { Main, Title, Control } from "./styles";
 import { SelectDescription, CurrentMovieCategory } from "../../../types/types";
 import { MdFilterListOff } from "react-icons/md";
 import { LuArrowUpWideNarrow, LuArrowDownWideNarrow, LuArrowDownAZ, LuCalendarArrowDown } from "react-icons/lu";
 
-const selectList = [
+export const selectFilmType = [
   {
     "id": 0,
     "value": "all",
@@ -122,7 +122,7 @@ function MoviePage() {
     <>
       <Header />
       <Main>
-        <MovieCategory selectList={selectList} currentCategory={currentCategory} setCategory={setCurrentCategoties} ref={sidebarRef} />
+        <MovieCategory selectList={selectFilmType} currentCategory={currentCategory} setCategory={setCurrentCategoties} ref={sidebarRef} />
         <div>
           <Title>Фильмы</Title>
           <Control>
@@ -135,7 +135,7 @@ function MoviePage() {
               <CustomSelect list={elementsOnPageList} value={elementsOnPage} setValue={setElementsOnPage} minWidth={80}/>
             </div>
           </Control>
-          <MovieList currentCategory={currentCategory} sortingType={sort}/>
+          <MovieSection currentCategory={currentCategory} sortingType={sort}/>
         </div>
       </Main>
       <Footer />

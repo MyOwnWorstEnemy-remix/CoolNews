@@ -5,5 +5,10 @@ export const Main = styled.main`
     padding-top: 50px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
+
+    h1 {
+        width: 100%;
+    }
 `

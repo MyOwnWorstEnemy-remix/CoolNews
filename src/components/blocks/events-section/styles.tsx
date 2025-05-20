@@ -12,16 +12,3 @@ export const Title = styled.h1`
     margin: 0;
     margin-bottom: 30px;
 `
-
-export const List = styled.ul`
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-
-    li {
-        width: 350px;
-    }
-`

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Header from "../../../layout/header/header";
 import Weather from "../../blocks/weather/weather";
-import EventsList from "../../blocks/events-list/events-list";
+import EventsSection from "../../blocks/events-section/events-section";
 import EventCategorySelect from "../../blocks/event-category-select/event-category-select";
 import Footer from "../../../layout/footer/footer";
 import { Main } from "./styles";
 import { EventCategory, EventDescription } from "../../../types/types";
 
-const categories = {
+export const eventCategories = {
   "city": [
     {
       "id": 0,
@@ -63,8 +63,8 @@ function EventPage() {
       <>
         <Header/>
         <Main>
-            <EventCategorySelect categories={categories} currentCategory={category} setCategory={setCategory} />
-            <EventsList category={category} />
+            <EventCategorySelect categories={eventCategories} currentCategory={category} setCategory={setCategory} />
+            <EventsSection category={category} />
             <Weather />
         </Main>
         <Footer />

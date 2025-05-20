@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Header from "../../../layout/header/header";
-import News from "../../blocks/news/news";
+import NewsSection from "../../blocks/news-section/news-section";
 import NewsCategory from "../../blocks/news-category/news-category";
 import Weather from "../../blocks/weather/weather";
 import { Category, CategoryList } from "../../../types/types";
 import { HiddenTitle, Main } from "./styles";
 import Footer from "../../../layout/footer/footer";
 
-const categories = [
+export const newsCategories = [
   {
     "id": 0,
     "name": 'general',
@@ -56,7 +56,7 @@ const categories = [
 ] as CategoryList[];
 
 function MainPage() {
-  const initArr = categories.map((c) => c.name);
+  const initArr = newsCategories.map((c) => c.name);
   const [categoryList, setCategoryList] = useState<Category[]>(initArr);
 
   return (
@@ -64,8 +64,8 @@ function MainPage() {
       <Header/>
       <Main>
         <HiddenTitle>MainPage</HiddenTitle>
-        <NewsCategory categories={categories} categoryList={categoryList} setCategoryList={setCategoryList}/>
-        <News categoryList={categoryList}/>
+        <NewsCategory categories={newsCategories} categoryList={categoryList} setCategory={setCategoryList}/>
+        <NewsSection categoryList={categoryList}/>
         <Weather />
       </Main>
       <Footer />

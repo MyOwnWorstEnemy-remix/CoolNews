@@ -40,7 +40,7 @@ export const Img = styled.img`
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 500px;
+    width: 100%;
     height: auto;
     object-fit: contain;
 `

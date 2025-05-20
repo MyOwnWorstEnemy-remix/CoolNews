@@ -5,6 +5,7 @@ export type Favourite = {
 }
 
 export type Article = {
+  "entityType": 'news',
   "id": number,
   "title": string,
   "description": string,
@@ -59,6 +60,7 @@ export type Cuisine = {
 }
 
 export type Event = {
+  "entityType": 'event',
   "id": number,
   "img": string,
   "title": string,
@@ -106,6 +108,7 @@ export type EventDescription = {
 export type FilmType = "animated-series" | "tv-series" | "movie" | "cartoon" | "all";
 
 export type Film = {
+  "entityType": 'film',
   "id": number,
   "name": string,
   "type": FilmType,
