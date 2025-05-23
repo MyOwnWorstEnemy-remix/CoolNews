@@ -1,6 +1,6 @@
 import { SelectDescription, CurrentMovieCategory } from "../../../types/types";
 import { Section, Title, CategoryWrapper, Button } from "./styles";
-import { useState, RefObject } from "react";
+import { useState,useRef, useEffect, RefObject } from "react";
 import useDebounce from "../../../custom-hooks/hooks";
 import CustomSelect from "../../ui/custom-select/custom-select";
 import CustomDoubleRange from "../../ui/custom-double-range/custom-double-range";
@@ -114,11 +114,10 @@ const countries = [
     },
 ]
 
-function MovieCategory ({selectList, currentCategory, setCategory, ref} : {
+function MovieCategory ({selectList, currentCategory, setCategory} : {
         selectList: SelectDescription[], 
         currentCategory: CurrentMovieCategory, 
         setCategory: SetCategory, 
-        ref?: RefObject<HTMLDivElement | null>, 
     }) {
     const [typeSelect, setTypeSelect] = useState<string>(currentCategory.filmType);
     const [ratingRange, setRatingRange] = useState<number[]>([0, 10]);
@@ -127,6 +126,8 @@ function MovieCategory ({selectList, currentCategory, setCategory, ref} : {
     const [allGenres, setAllGenres] = useState<boolean>(true);
     const [selectedCountries, setSelectedCountries] = useState<{title: string}[]>([]);
     const [allCountries, setAllCountries] = useState<boolean>(true); 
+    const prevScroll = useRef(0);
+    const sidebarRef = useRef<HTMLDivElement | null>(null);
 
     const handleButtonClick = () => {
         const newCategory = {...currentCategory};
@@ -141,7 +142,30 @@ function MovieCategory ({selectList, currentCategory, setCategory, ref} : {
         setCategory(newCategory);
     };
 
-    return <Section ref={ref}>
+    const onWindowScroll = () => {
+        if (sidebarRef.current && (
+           (+sidebarRef.current.style.top.slice(0, -2) > window.innerHeight - sidebarRef.current.offsetHeight - 50 && +sidebarRef.current.style.top.slice(0, -2) < 50) 
+           || (+sidebarRef.current.style.top.slice(0, -2) === window.innerHeight - sidebarRef.current.offsetHeight - 50 && window.scrollY < prevScroll.current) 
+           || (+sidebarRef.current.style.top.slice(0, -2) === 50 && window.scrollY > prevScroll.current))) {
+            sidebarRef.current.style.top = `${+sidebarRef.current.style.top.slice(0, -2) - window.scrollY + prevScroll.current}px`;
+        } else if (sidebarRef.current && +sidebarRef.current.style.top.slice(0, -2) < window.innerHeight - sidebarRef.current.offsetHeight - 50) {
+            sidebarRef.current.style.top = `${window.innerHeight - sidebarRef.current.offsetHeight - 50}px`;
+        } else if (sidebarRef.current && (+sidebarRef.current.style.top.slice(0, -2) < window.innerHeight - sidebarRef.current.offsetHeight - 50 || +sidebarRef.current.style.top.slice(0, -2) > 50)) {
+            sidebarRef.current.style.top = '50px';
+        }
+        prevScroll.current = window.scrollY;
+    }
+
+    useEffect(() => {
+        if(sidebarRef.current && sidebarRef.current.offsetHeight > window.innerHeight - 50) {
+            window.addEventListener('scroll', onWindowScroll);
+        } else if (sidebarRef.current) {
+            sidebarRef.current.style.top = '50px';
+        }
+        return () => window.removeEventListener('scroll', onWindowScroll);
+    }, [selectedGenres, selectedCountries])
+
+    return <Section ref={sidebarRef}>
         <Title>Категории:</Title> 
         <CategoryWrapper>
             <h3>Тип:</h3>
